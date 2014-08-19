@@ -1,0 +1,4153 @@
+{
+	"children": [{
+		"name": "creative work",
+		"children": [{
+			"name": "cultural heritage & property",
+			"children": [{
+				"name": "French monument historique",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "monument historique inscrit",
+						"label": "monument historique inscrit",
+						"size": 8789
+					}, {
+						"name": "monument historique class\u00e9",
+						"label": "monument historique class\u00e9",
+						"size": 7947
+					}]
+				}]
+			}, {
+				"name": "Iranian National Heritage",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Iranian National Heritage",
+						"label": "Iranian National Heritage",
+						"size": 21076
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "World Heritage Site",
+					"label": "World Heritage Site",
+					"size": 271
+				}, {
+					"name": "national historic landmark of the USA",
+					"label": "national historic landmark of the USA",
+					"size": 2134
+				}, {
+					"name": "national monument of the Czech Republic",
+					"label": "national monument of the Czech Republic",
+					"size": 340
+				}, {
+					"name": "National heritage site (Portugal)",
+					"label": "National heritage site (Portugal)",
+					"size": 338
+				}, {
+					"name": "monument historique",
+					"label": "monument historique",
+					"size": 126
+				}, {
+					"name": "national historic site of Canada",
+					"label": "national historic site of Canada",
+					"size": 272
+				}, {
+					"name": "historic district in the United States",
+					"label": "historic district in the United States",
+					"size": 1239
+				}, {
+					"name": "cultural property",
+					"label": "cultural property",
+					"size": 1983
+				}, {
+					"name": "cultural property of Belarus",
+					"label": "cultural property of Belarus",
+					"size": 660
+				}, {
+					"name": "protected townscape",
+					"label": "protected townscape",
+					"size": 295
+				}, {
+					"name": "heritage district in the Netherlands",
+					"label": "heritage district in the Netherlands",
+					"size": 177
+				}, {
+					"name": "protected cultural monuments in Serbia",
+					"label": "protected cultural monuments in Serbia",
+					"size": 261
+				}, {
+					"name": "Swiss cultural property of national significance",
+					"label": "Swiss cultural property of national significance",
+					"size": 1331
+				}, {
+					"name": "category A listed building",
+					"label": "category A listed building",
+					"size": 739
+				}, {
+					"name": "category B listed building",
+					"label": "category B listed building",
+					"size": 403
+				}, {
+					"name": "Beschermd erfgoed",
+					"label": "Beschermd erfgoed",
+					"size": 248
+				}, {
+					"name": "Swiss cultural property of regional significance",
+					"label": "Swiss cultural property of regional significance",
+					"size": 774
+				}, {
+					"name": "classified heritage immovable",
+					"label": "classified heritage immovable",
+					"size": 148
+				}, {
+					"name": "Romanian cultural property of national significance",
+					"label": "Romanian cultural property of national significance",
+					"size": 160
+				}]
+			}, {
+				"name": "Rijksmonument",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Rijksmonument",
+						"label": "Rijksmonument",
+						"size": 31398
+					}]
+				}]
+			}, {
+				"name": "UK's exceptional buildings",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Grade I listed building",
+						"label": "Grade I listed building",
+						"size": 2945
+					}, {
+						"name": "Grade II* listed building",
+						"label": "Grade II* listed building",
+						"size": 1042
+					}, {
+						"name": "Grade II listed building",
+						"label": "Grade II listed building",
+						"size": 1107
+					}]
+				}]
+			}]
+		}, {
+			"name": "film & tv",
+			"children": [{
+				"name": "film",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "film",
+						"label": "film",
+						"size": 139319
+					}, {
+						"name": "short film",
+						"label": "short film",
+						"size": 535
+					}, {
+						"name": "animated film",
+						"label": "animated film",
+						"size": 150
+					}]
+				}]
+			}, {
+				"name": "television film",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "television film",
+						"label": "television film",
+						"size": 2567
+					}]
+				}]
+			}, {
+				"name": "television program",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "television program",
+						"label": "television program",
+						"size": 15215
+					}, {
+						"name": "television anime",
+						"label": "television anime",
+						"size": 406
+					}]
+				}]
+			}, {
+				"name": "television series & seasons",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "episode",
+						"label": "episode",
+						"size": 4209
+					}, {
+						"name": "season",
+						"label": "season",
+						"size": 1378
+					}, {
+						"name": "television series",
+						"label": "television series",
+						"size": 6517
+					}]
+				}]
+			}]
+		}, {
+			"name": "literary work",
+			"children": [{
+				"name": "book",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "book",
+						"label": "book",
+						"size": 11630
+					}, {
+						"name": "edition",
+						"label": "edition",
+						"size": 301
+					}]
+				}]
+			}, {
+				"name": "comic book",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "manga",
+						"label": "manga",
+						"size": 2282
+					}, {
+						"name": "comic book album (bande dessin\u00e9e)",
+						"label": "comic book album (bande dessin\u00e9e)",
+						"size": 2606
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "novel",
+						"label": "novel",
+						"size": 162
+					}, {
+						"name": "play",
+						"label": "play",
+						"size": 502
+					}, {
+						"name": "short story",
+						"label": "short story",
+						"size": 433
+					}, {
+						"name": "book series",
+						"label": "book series",
+						"size": 178
+					}, {
+						"name": "literary work",
+						"label": "literary work",
+						"size": 6255
+					}]
+				}]
+			}, {
+				"name": "poem",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "psalm",
+						"label": "psalm",
+						"size": 1584
+					}, {
+						"name": "poem",
+						"label": "poem",
+						"size": 135
+					}, {
+						"name": "Qijue",
+						"label": "Qijue",
+						"size": 1900
+					}, {
+						"name": "",
+						"label": "",
+						"size": 1117
+					}]
+				}]
+			}]
+		}, {
+			"name": "musical work",
+			"children": [{
+				"name": "album",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "live album",
+						"label": "live album",
+						"size": 5740
+					}, {
+						"name": "compilation album",
+						"label": "compilation album",
+						"size": 2775
+					}, {
+						"name": "album",
+						"label": "album",
+						"size": 152692
+					}, {
+						"name": "soundtrack album",
+						"label": "soundtrack album",
+						"size": 107
+					}]
+				}]
+			}, {
+				"name": "discography",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "discography",
+						"label": "discography",
+						"size": 2715
+					}]
+				}]
+			}, {
+				"name": "extended play",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "extended play",
+						"label": "extended play",
+						"size": 8348
+					}]
+				}]
+			}, {
+				"name": "opera",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "opera",
+						"label": "opera",
+						"size": 2377
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "musical theatre",
+						"label": "musical theatre",
+						"size": 290
+					}, {
+						"name": "symphony",
+						"label": "symphony",
+						"size": 271
+					}, {
+						"name": "composition",
+						"label": "composition",
+						"size": 231
+					}, {
+						"name": "Bach cantata",
+						"label": "Bach cantata",
+						"size": 274
+					}, {
+						"name": "piano sonata",
+						"label": "piano sonata",
+						"size": 139
+					}, {
+						"name": "waltz",
+						"label": "waltz",
+						"size": 102
+					}]
+				}]
+			}, {
+				"name": "single",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "single",
+						"label": "single",
+						"size": 39818
+					}]
+				}]
+			}, {
+				"name": "song",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "song",
+						"label": "song",
+						"size": 6338
+					}, {
+						"name": "national anthem",
+						"label": "national anthem",
+						"size": 337
+					}, {
+						"name": "folk song",
+						"label": "folk song",
+						"size": 538
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "anime",
+						"label": "anime",
+						"size": 268
+					}, {
+						"name": "operating system",
+						"label": "operating system",
+						"size": 259
+					}, {
+						"name": "programming language",
+						"label": "programming language",
+						"size": 608
+					}, {
+						"name": "website",
+						"label": "website",
+						"size": 1139
+					}, {
+						"name": "board game",
+						"label": "board game",
+						"size": 180
+					}, {
+						"name": "article",
+						"label": "article",
+						"size": 523
+					}, {
+						"name": "encyclical",
+						"label": "encyclical",
+						"size": 165
+					}, {
+						"name": "creative work",
+						"label": "creative work",
+						"size": 27958
+					}, {
+						"name": "free and open-source software",
+						"label": "free and open-source software",
+						"size": 102
+					}, {
+						"name": "public art",
+						"label": "public art",
+						"size": 269
+					}, {
+						"name": "rockumentary",
+						"label": "rockumentary",
+						"size": 110
+					}, {
+						"name": "chapter",
+						"label": "chapter",
+						"size": 100
+					}, {
+						"name": "Wikipedia language edition",
+						"label": "Wikipedia language edition",
+						"size": 276
+					}, {
+						"name": "MediaWiki site",
+						"label": "MediaWiki site",
+						"size": 105
+					}, {
+						"name": "encyclopedic article",
+						"label": "encyclopedic article",
+						"size": 1918
+					}]
+				}]
+			}]
+		}, {
+			"name": "periodical literature",
+			"children": [{
+				"name": "magazine",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "magazine",
+						"label": "magazine",
+						"size": 3783
+					}]
+				}]
+			}, {
+				"name": "newspaper",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "newspaper",
+						"label": "newspaper",
+						"size": 5969
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "academic journal",
+						"label": "academic journal",
+						"size": 139
+					}, {
+						"name": "periodical literature",
+						"label": "periodical literature",
+						"size": 11138
+					}, {
+						"name": "scientific journal",
+						"label": "scientific journal",
+						"size": 23060
+					}]
+				}]
+			}]
+		}, {
+			"name": "radio",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "radio program",
+						"label": "radio program",
+						"size": 417
+					}, {
+						"name": "radio drama",
+						"label": "radio drama",
+						"size": 1103
+					}]
+				}]
+			}]
+		}, {
+			"name": "video game",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "video game",
+						"label": "video game",
+						"size": 20943
+					}]
+				}]
+			}]
+		}, {
+			"name": "work of art",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "fresco",
+						"label": "fresco",
+						"size": 156
+					}, {
+						"name": "work of art",
+						"label": "work of art",
+						"size": 585
+					}]
+				}]
+			}, {
+				"name": "painting",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "painting",
+						"label": "painting",
+						"size": 13635
+					}]
+				}]
+			}, {
+				"name": "sculpture",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "sculpture",
+						"label": "sculpture",
+						"size": 2336
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "geographical entity",
+		"children": [{
+			"name": "administrative subdivision",
+			"children": [{
+				"name": "administrative territorial entity of Russia",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "administrative territorial entity of Russia",
+						"label": "administrative territorial entity of Russia",
+						"size": 42192
+					}]
+				}]
+			}, {
+				"name": "administrative territorial entity of the People's Republic of China",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "administrative territorial entity of the People's Republic of China",
+						"label": "administrative territorial entity of the People's Republic of China",
+						"size": 7984
+					}]
+				}]
+			}, {
+				"name": "administrative territorial entity of Ukraine",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "administrative territorial entity of Ukraine",
+						"label": "administrative territorial entity of Ukraine",
+						"size": 26777
+					}]
+				}]
+			}, {
+				"name": "census-designated place",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "census-designated place",
+						"label": "census-designated place",
+						"size": 6904
+					}]
+				}]
+			}, {
+				"name": "Chinese residential community",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "residential community of the People's Republic of China",
+						"label": "residential community of the People's Republic of China",
+						"size": 89854
+					}]
+				}]
+			}, {
+				"name": "Chinese township & town",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "town",
+						"label": "town",
+						"size": 19561
+					}, {
+						"name": "township",
+						"label": "township",
+						"size": 12485
+					}]
+				}]
+			}, {
+				"name": "city & town",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "city",
+						"label": "city",
+						"size": 12359
+					}, {
+						"name": "town",
+						"label": "town",
+						"size": 7106
+					}, {
+						"name": "ghost town",
+						"label": "ghost town",
+						"size": 1561
+					}, {
+						"name": "city of Ukraine",
+						"label": "city of Ukraine",
+						"size": 360
+					}, {
+						"name": "city of Japan",
+						"label": "city of Japan",
+						"size": 687
+					}, {
+						"name": "prefecture-level city",
+						"label": "prefecture-level city",
+						"size": 261
+					}, {
+						"name": "town of Japan",
+						"label": "town of Japan",
+						"size": 746
+					}, {
+						"name": "county-level city",
+						"label": "county-level city",
+						"size": 353
+					}, {
+						"name": "city with hundreds of thousands of inhabitants",
+						"label": "city with hundreds of thousands of inhabitants",
+						"size": 145
+					}, {
+						"name": "city with millions of inhabitants",
+						"label": "city with millions of inhabitants",
+						"size": 147
+					}, {
+						"name": "railway town",
+						"label": "railway town",
+						"size": 111
+					}, {
+						"name": "town in Hungary",
+						"label": "town in Hungary",
+						"size": 299
+					}, {
+						"name": "town with town rights and privileges",
+						"label": "town with town rights and privileges",
+						"size": 439
+					}, {
+						"name": "town of the United States",
+						"label": "town of the United States",
+						"size": 6095
+					}, {
+						"name": "town of Wisconsin",
+						"label": "town of Wisconsin",
+						"size": 522
+					}, {
+						"name": "fourth-class city",
+						"label": "fourth-class city",
+						"size": 143
+					}, {
+						"name": "Belgian municipality with city privileges",
+						"label": "Belgian municipality with city privileges",
+						"size": 132
+					}]
+				}]
+			}, {
+				"name": "Danish's administrative subdivision",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Sogn",
+						"label": "Sogn",
+						"size": 2212
+					}]
+				}]
+			}, {
+				"name": "diocese",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "diocese",
+						"label": "diocese",
+						"size": 2179
+					}, {
+						"name": "archdiocese",
+						"label": "archdiocese",
+						"size": 588
+					}]
+				}]
+			}, {
+				"name": "district of Indonesia",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "district of Indonesia",
+						"label": "district of Indonesia",
+						"size": 6344
+					}]
+				}]
+			}, {
+				"name": "frazione of Italy",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "frazione of Italy",
+						"label": "frazione of Italy",
+						"size": 5038
+					}]
+				}]
+			}, {
+				"name": "hamlet",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "hamlet",
+						"label": "hamlet",
+						"size": 3532
+					}, {
+						"name": "buurtschap",
+						"label": "buurtschap",
+						"size": 2770
+					}, {
+						"name": "hamlet in Alberta",
+						"label": "hamlet in Alberta",
+						"size": 403
+					}]
+				}]
+			}, {
+				"name": "human & rural settlement",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "human settlement",
+						"label": "human settlement",
+						"size": 47099
+					}, {
+						"name": "rural settlement",
+						"label": "rural settlement",
+						"size": 7303
+					}, {
+						"name": "Khutor",
+						"label": "Khutor",
+						"size": 3097
+					}, {
+						"name": "urban settlement in Russia",
+						"label": "urban settlement in Russia",
+						"size": 467
+					}]
+				}]
+			}, {
+				"name": "municipality",
+				"children": [{
+					"name": "French commune",
+					"children": [{
+						"name": "community of communes",
+						"label": "community of communes",
+						"size": 256
+					}, {
+						"name": "commune",
+						"label": "commune",
+						"size": 36830
+					}]
+				}, {
+					"name": "municipality of Germany",
+					"children": [{
+						"name": "municipality of Germany",
+						"label": "municipality of Germany",
+						"size": 10752
+					}]
+				}, {
+					"name": "municipality of Italy",
+					"children": [{
+						"name": "comune of Italy",
+						"label": "comune of Italy",
+						"size": 7888
+					}]
+				}, {
+					"name": "municipality of Spain",
+					"children": [{
+						"name": "municipality of Spain",
+						"label": "municipality of Spain",
+						"size": 7999
+					}]
+				}, {
+					"name": "other",
+					"children": [{
+						"name": "municipality",
+						"label": "municipality",
+						"size": 411
+					}, {
+						"name": "municipality of the Philippines",
+						"label": "municipality of the Philippines",
+						"size": 1478
+					}, {
+						"name": "municipality of Croatia",
+						"label": "municipality of Croatia",
+						"size": 418
+					}, {
+						"name": "municipality of Switzerland",
+						"label": "municipality of Switzerland",
+						"size": 2363
+					}, {
+						"name": "municipality of Sweden",
+						"label": "municipality of Sweden",
+						"size": 394
+					}, {
+						"name": "municipality of Slovenia",
+						"label": "municipality of Slovenia",
+						"size": 197
+					}, {
+						"name": "municipality of Angola",
+						"label": "municipality of Angola",
+						"size": 158
+					}, {
+						"name": "municipality of Belgium",
+						"label": "municipality of Belgium",
+						"size": 454
+					}, {
+						"name": "municipality of Estonia",
+						"label": "municipality of Estonia",
+						"size": 179
+					}, {
+						"name": "municipiu",
+						"label": "municipiu",
+						"size": 103
+					}, {
+						"name": "commune of Romania",
+						"label": "commune of Romania",
+						"size": 2866
+					}, {
+						"name": "municipality of Austria",
+						"label": "municipality of Austria",
+						"size": 771
+					}, {
+						"name": "former municipality of Switzerland",
+						"label": "former municipality of Switzerland",
+						"size": 711
+					}, {
+						"name": "municipality of Norway",
+						"label": "municipality of Norway",
+						"size": 423
+					}, {
+						"name": "municipality of Serbia",
+						"label": "municipality of Serbia",
+						"size": 253
+					}, {
+						"name": "municipality of Finland",
+						"label": "municipality of Finland",
+						"size": 330
+					}, {
+						"name": "municipality of Bolivia",
+						"label": "municipality of Bolivia",
+						"size": 297
+					}, {
+						"name": "Local municipality",
+						"label": "Local municipality",
+						"size": 228
+					}, {
+						"name": "commune of Mali",
+						"label": "commune of Mali",
+						"size": 660
+					}, {
+						"name": "Landgemeinde",
+						"label": "Landgemeinde",
+						"size": 1379
+					}, {
+						"name": "commune of Chile",
+						"label": "commune of Chile",
+						"size": 337
+					}, {
+						"name": "municipality of Bulgaria",
+						"label": "municipality of Bulgaria",
+						"size": 272
+					}, {
+						"name": "municipality of Mexico",
+						"label": "municipality of Mexico",
+						"size": 429
+					}, {
+						"name": "municipality of Albania",
+						"label": "municipality of Albania",
+						"size": 356
+					}, {
+						"name": "municipality of the Netherlands",
+						"label": "municipality of the Netherlands",
+						"size": 343
+					}, {
+						"name": "municipality of Denmark",
+						"label": "municipality of Denmark",
+						"size": 102
+					}, {
+						"name": "municipal district in Russia",
+						"label": "municipal district in Russia",
+						"size": 1828
+					}, {
+						"name": "district of Costa Rica",
+						"label": "district of Costa Rica",
+						"size": 454
+					}, {
+						"name": "rural commune of Vietnam",
+						"label": "rural commune of Vietnam",
+						"size": 805
+					}, {
+						"name": "municipality of Colombia",
+						"label": "municipality of Colombia",
+						"size": 1084
+					}, {
+						"name": "municipality of Hungary",
+						"label": "municipality of Hungary",
+						"size": 2859
+					}, {
+						"name": "Algerian municipality",
+						"label": "Algerian municipality",
+						"size": 296
+					}, {
+						"name": "Communes of Mauritania",
+						"label": "Communes of Mauritania",
+						"size": 207
+					}, {
+						"name": "municipality of Brazil",
+						"label": "municipality of Brazil",
+						"size": 5400
+					}, {
+						"name": "commune in Madagascar",
+						"label": "commune in Madagascar",
+						"size": 1138
+					}, {
+						"name": "local municipality of Quebec",
+						"label": "local municipality of Quebec",
+						"size": 1120
+					}, {
+						"name": "municipality of Venezuela",
+						"label": "municipality of Venezuela",
+						"size": 326
+					}, {
+						"name": "municipality of Latvia",
+						"label": "municipality of Latvia",
+						"size": 110
+					}, {
+						"name": "rural municipality of Poland",
+						"label": "rural municipality of Poland",
+						"size": 1567
+					}, {
+						"name": "municipality of Armenia",
+						"label": "municipality of Armenia",
+						"size": 893
+					}, {
+						"name": "municipality of the Czech Republic",
+						"label": "municipality of the Czech Republic",
+						"size": 5618
+					}, {
+						"name": "municipality of Slovakia",
+						"label": "municipality of Slovakia",
+						"size": 351
+					}, {
+						"name": "municipality of Portugal",
+						"label": "municipality of Portugal",
+						"size": 252
+					}, {
+						"name": "subdistrict municipality",
+						"label": "subdistrict municipality",
+						"size": 379
+					}, {
+						"name": "municipality with town privileges",
+						"label": "municipality with town privileges",
+						"size": 602
+					}, {
+						"name": "rural commune of Morocco",
+						"label": "rural commune of Morocco",
+						"size": 218
+					}]
+				}]
+			}, {
+				"name": "neighborhood",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "neighbourhood",
+						"label": "neighbourhood",
+						"size": 9790
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "department",
+						"label": "department",
+						"size": 179
+					}, {
+						"name": "district of Iran",
+						"label": "district of Iran",
+						"size": 993
+					}, {
+						"name": "stock exchange",
+						"label": "stock exchange",
+						"size": 115
+					}, {
+						"name": "province of Italy",
+						"label": "province of Italy",
+						"size": 110
+					}, {
+						"name": "township in the United States",
+						"label": "township in the United States",
+						"size": 1894
+					}, {
+						"name": "governorate of the Russian Empire",
+						"label": "governorate of the Russian Empire",
+						"size": 104
+					}, {
+						"name": "rural district of Germany",
+						"label": "rural district of Germany",
+						"size": 333
+					}, {
+						"name": "Counties of Iran",
+						"label": "Counties of Iran",
+						"size": 409
+					}, {
+						"name": "ward of Japan",
+						"label": "ward of Japan",
+						"size": 175
+					}, {
+						"name": "canton",
+						"label": "canton",
+						"size": 4039
+					}, {
+						"name": "constituency",
+						"label": "constituency",
+						"size": 117
+					}, {
+						"name": "arrondissement",
+						"label": "arrondissement",
+						"size": 347
+					}, {
+						"name": "county of Poland",
+						"label": "county of Poland",
+						"size": 316
+					}, {
+						"name": "Ortsteil",
+						"label": "Ortsteil",
+						"size": 551
+					}, {
+						"name": "unincorporated area",
+						"label": "unincorporated area",
+						"size": 1445
+					}, {
+						"name": "Khwaeng",
+						"label": "Khwaeng",
+						"size": 169
+					}, {
+						"name": "Amphoe",
+						"label": "Amphoe",
+						"size": 878
+					}, {
+						"name": "Amt",
+						"label": "Amt",
+						"size": 300
+					}, {
+						"name": "district of Afghanistan",
+						"label": "district of Afghanistan",
+						"size": 407
+					}, {
+						"name": "province of Peru",
+						"label": "province of Peru",
+						"size": 195
+					}, {
+						"name": "township",
+						"label": "township",
+						"size": 132
+					}, {
+						"name": "district of Ghana",
+						"label": "district of Ghana",
+						"size": 109
+					}, {
+						"name": "ethnic township",
+						"label": "ethnic township",
+						"size": 1088
+					}, {
+						"name": "upazila of Bangladesh",
+						"label": "upazila of Bangladesh",
+						"size": 479
+					}, {
+						"name": "district in Switzerland",
+						"label": "district in Switzerland",
+						"size": 136
+					}, {
+						"name": "microregion of Brazil",
+						"label": "microregion of Brazil",
+						"size": 568
+					}, {
+						"name": "subregion of Hungary",
+						"label": "subregion of Hungary",
+						"size": 157
+					}, {
+						"name": "central business district",
+						"label": "central business district",
+						"size": 185
+					}, {
+						"name": "borough of Pennsylvania",
+						"label": "borough of Pennsylvania",
+						"size": 937
+					}, {
+						"name": "township of Arkansas",
+						"label": "township of Arkansas",
+						"size": 160
+					}, {
+						"name": "department of Argentina",
+						"label": "department of Argentina",
+						"size": 363
+					}, {
+						"name": "province of Bolivia",
+						"label": "province of Bolivia",
+						"size": 112
+					}, {
+						"name": "district of the People's Republic of China",
+						"label": "district of the People's Republic of China",
+						"size": 741
+					}, {
+						"name": "Tambon",
+						"label": "Tambon",
+						"size": 4590
+					}, {
+						"name": "civil parish",
+						"label": "civil parish",
+						"size": 733
+					}, {
+						"name": "freguesia of Portugal",
+						"label": "freguesia of Portugal",
+						"size": 3949
+					}, {
+						"name": "district of Turkey",
+						"label": "district of Turkey",
+						"size": 1405
+					}, {
+						"name": "district of India",
+						"label": "district of India",
+						"size": 597
+					}, {
+						"name": "district of Hungary",
+						"label": "district of Hungary",
+						"size": 137
+					}, {
+						"name": "delegation of Tunisia",
+						"label": "delegation of Tunisia",
+						"size": 263
+					}, {
+						"name": "raion of Ukraine",
+						"label": "raion of Ukraine",
+						"size": 486
+					}, {
+						"name": "county",
+						"label": "county",
+						"size": 1487
+					}, {
+						"name": "autonomous county",
+						"label": "autonomous county",
+						"size": 119
+					}, {
+						"name": "princely state of the British Raj",
+						"label": "princely state of the British Raj",
+						"size": 181
+					}, {
+						"name": "gewog of Bhutan",
+						"label": "gewog of Bhutan",
+						"size": 205
+					}, {
+						"name": "Gemarkung",
+						"label": "Gemarkung",
+						"size": 532
+					}, {
+						"name": "mesoregion of Brazil",
+						"label": "mesoregion of Brazil",
+						"size": 139
+					}, {
+						"name": "Socken",
+						"label": "Socken",
+						"size": 2382
+					}, {
+						"name": "k\u00f6y",
+						"label": "k\u00f6y",
+						"size": 359
+					}, {
+						"name": "local government area of Nigeria",
+						"label": "local government area of Nigeria",
+						"size": 755
+					}, {
+						"name": "local government area of Australia",
+						"label": "local government area of Australia",
+						"size": 531
+					}, {
+						"name": "district of Belarus",
+						"label": "district of Belarus",
+						"size": 118
+					}, {
+						"name": "constituency of the United Kingdom",
+						"label": "constituency of the United Kingdom",
+						"size": 1809
+					}, {
+						"name": "district of Peru",
+						"label": "district of Peru",
+						"size": 1784
+					}, {
+						"name": "district of Pakistan",
+						"label": "district of Pakistan",
+						"size": 130
+					}, {
+						"name": "department of Burkina Faso",
+						"label": "department of Burkina Faso",
+						"size": 398
+					}, {
+						"name": "parish of Latvia",
+						"label": "parish of Latvia",
+						"size": 446
+					}, {
+						"name": "district of Algeria",
+						"label": "district of Algeria",
+						"size": 549
+					}, {
+						"name": "district of Kazakhstan",
+						"label": "district of Kazakhstan",
+						"size": 159
+					}, {
+						"name": "municipality section",
+						"label": "municipality section",
+						"size": 1742
+					}, {
+						"name": "municipality of Luxembourg",
+						"label": "municipality of Luxembourg",
+						"size": 112
+					}, {
+						"name": "provincial electoral district of Quebec",
+						"label": "provincial electoral district of Quebec",
+						"size": 128
+					}, {
+						"name": "urban district",
+						"label": "urban district",
+						"size": 268
+					}, {
+						"name": "regency of Indonesia",
+						"label": "regency of Indonesia",
+						"size": 403
+					}, {
+						"name": "locality",
+						"label": "locality",
+						"size": 2540
+					}, {
+						"name": "precinct",
+						"label": "precinct",
+						"size": 892
+					}, {
+						"name": "Constituency of the Lok Sabha",
+						"label": "Constituency of the Lok Sabha",
+						"size": 560
+					}, {
+						"name": "arrondissement of Benin",
+						"label": "arrondissement of Benin",
+						"size": 491
+					}, {
+						"name": "sovereign state",
+						"label": "sovereign state",
+						"size": 183
+					}, {
+						"name": "district of Papua",
+						"label": "district of Papua",
+						"size": 109
+					}, {
+						"name": "district of Moscow",
+						"label": "district of Moscow",
+						"size": 122
+					}, {
+						"name": "urban district of China",
+						"label": "urban district of China",
+						"size": 183
+					}, {
+						"name": "charter township of Michigan",
+						"label": "charter township of Michigan",
+						"size": 133
+					}, {
+						"name": "district of Laos",
+						"label": "district of Laos",
+						"size": 142
+					}, {
+						"name": "urban-type settlement",
+						"label": "urban-type settlement",
+						"size": 1231
+					}, {
+						"name": "township of Missouri",
+						"label": "township of Missouri",
+						"size": 231
+					}, {
+						"name": "township of Nebraska",
+						"label": "township of Nebraska",
+						"size": 442
+					}, {
+						"name": "federal electoral district in Ontario",
+						"label": "federal electoral district in Ontario",
+						"size": 106
+					}, {
+						"name": "district of Yemen",
+						"label": "district of Yemen",
+						"size": 329
+					}, {
+						"name": "township of North Carolina",
+						"label": "township of North Carolina",
+						"size": 144
+					}, {
+						"name": "township of North Dakota",
+						"label": "township of North Dakota",
+						"size": 156
+					}, {
+						"name": "township of New Jersey",
+						"label": "township of New Jersey",
+						"size": 289
+					}, {
+						"name": "township of Pennsylvania",
+						"label": "township of Pennsylvania",
+						"size": 1548
+					}, {
+						"name": "county of Texas",
+						"label": "county of Texas",
+						"size": 255
+					}, {
+						"name": "county of Illinois",
+						"label": "county of Illinois",
+						"size": 102
+					}, {
+						"name": "rural township of Taiwan",
+						"label": "rural township of Taiwan",
+						"size": 153
+					}, {
+						"name": "kampung",
+						"label": "kampung",
+						"size": 1124
+					}, {
+						"name": "subdistrict",
+						"label": "subdistrict",
+						"size": 7070
+					}, {
+						"name": "Chinese locality",
+						"label": "Chinese locality",
+						"size": 3174
+					}, {
+						"name": "urban area of Sweden",
+						"label": "urban area of Sweden",
+						"size": 2412
+					}, {
+						"name": "county of Kansas",
+						"label": "county of Kansas",
+						"size": 105
+					}, {
+						"name": "county of Missouri",
+						"label": "county of Missouri",
+						"size": 114
+					}, {
+						"name": "county of North Carolina",
+						"label": "county of North Carolina",
+						"size": 100
+					}, {
+						"name": "Sm\u00e5ort",
+						"label": "Sm\u00e5ort",
+						"size": 126
+					}, {
+						"name": "district of Cambodia",
+						"label": "district of Cambodia",
+						"size": 188
+					}, {
+						"name": "urban township of Minnesota",
+						"label": "urban township of Minnesota",
+						"size": 1813
+					}, {
+						"name": "selsoviet of Belarus",
+						"label": "selsoviet of Belarus",
+						"size": 1284
+					}, {
+						"name": "urban area in Norway",
+						"label": "urban area in Norway",
+						"size": 787
+					}, {
+						"name": "rural district of Iran",
+						"label": "rural district of Iran",
+						"size": 1311
+					}, {
+						"name": "subdistrict administrative organization",
+						"label": "subdistrict administrative organization",
+						"size": 133
+					}, {
+						"name": "municipality seat",
+						"label": "municipality seat",
+						"size": 2892
+					}, {
+						"name": "consituency (French Fifth Republic)",
+						"label": "consituency (French Fifth Republic)",
+						"size": 438
+					}, {
+						"name": "county of New South Wales",
+						"label": "county of New South Wales",
+						"size": 141
+					}, {
+						"name": "judicial district of Austria",
+						"label": "judicial district of Austria",
+						"size": 119
+					}, {
+						"name": "administrative community",
+						"label": "administrative community",
+						"size": 319
+					}, {
+						"name": "rural district of East Germany",
+						"label": "rural district of East Germany",
+						"size": 195
+					}, {
+						"name": "administrative territorial entity of a single country",
+						"label": "administrative territorial entity of a single country",
+						"size": 424
+					}, {
+						"name": "constituent locality",
+						"label": "constituent locality",
+						"size": 792
+					}, {
+						"name": "unincorporated area in Germany",
+						"label": "unincorporated area in Germany",
+						"size": 113
+					}, {
+						"name": "German Bundestag constituency",
+						"label": "German Bundestag constituency",
+						"size": 435
+					}, {
+						"name": "city in Romania",
+						"label": "city in Romania",
+						"size": 217
+					}, {
+						"name": "United States congressional district",
+						"label": "United States congressional district",
+						"size": 412
+					}, {
+						"name": "township of Illinois",
+						"label": "township of Illinois",
+						"size": 1434
+					}, {
+						"name": "township of Ohio",
+						"label": "township of Ohio",
+						"size": 1304
+					}, {
+						"name": "township of Indiana",
+						"label": "township of Indiana",
+						"size": 1009
+					}, {
+						"name": "Canadian federal electoral district",
+						"label": "Canadian federal electoral district",
+						"size": 736
+					}, {
+						"name": "township of Iowa",
+						"label": "township of Iowa",
+						"size": 1004
+					}, {
+						"name": "township of Kansas",
+						"label": "township of Kansas",
+						"size": 704
+					}, {
+						"name": "township of Michigan",
+						"label": "township of Michigan",
+						"size": 1107
+					}]
+				}]
+			}, {
+				"name": "US's unincorporated community",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "unincorporated community",
+						"label": "unincorporated community",
+						"size": 18942
+					}]
+				}]
+			}, {
+				"name": "village",
+				"children": [{
+					"name": "Chinese village",
+					"children": [{
+						"name": "village-level division in China",
+						"label": "village-level division in China",
+						"size": 588822
+					}]
+				}, {
+					"name": "other",
+					"children": [{
+						"name": "village",
+						"label": "village",
+						"size": 124058
+					}, {
+						"name": "Stanitsa",
+						"label": "Stanitsa",
+						"size": 431
+					}, {
+						"name": "village in the United States",
+						"label": "village in the United States",
+						"size": 164
+					}, {
+						"name": "Aul",
+						"label": "Aul",
+						"size": 175
+					}, {
+						"name": "Kelurahan",
+						"label": "Kelurahan",
+						"size": 6024
+					}, {
+						"name": "slavian village",
+						"label": "slavian village",
+						"size": 6294
+					}, {
+						"name": "village of Japan",
+						"label": "village of Japan",
+						"size": 183
+					}, {
+						"name": "village of Wisconsin",
+						"label": "village of Wisconsin",
+						"size": 405
+					}, {
+						"name": "village of Bulgaria",
+						"label": "village of Bulgaria",
+						"size": 4305
+					}]
+				}, {
+					"name": "village of Indonesia",
+					"children": [{
+						"name": "village in Indonesia",
+						"label": "village in Indonesia",
+						"size": 35927
+					}]
+				}, {
+					"name": "village of Poland",
+					"children": [{
+						"name": "village of Poland",
+						"label": "village of Poland",
+						"size": 51570
+					}]
+				}]
+			}]
+		}, {
+			"name": "building",
+			"children": [{
+				"name": "architectural structure",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "architectural structure",
+						"label": "architectural structure",
+						"size": 9959
+					}]
+				}]
+			}, {
+				"name": "castle",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "palace",
+						"label": "palace",
+						"size": 263
+					}, {
+						"name": "castle",
+						"label": "castle",
+						"size": 5858
+					}, {
+						"name": "castra",
+						"label": "castra",
+						"size": 233
+					}, {
+						"name": "ch\u00e2teau",
+						"label": "ch\u00e2teau",
+						"size": 3204
+					}, {
+						"name": "fort",
+						"label": "fort",
+						"size": 447
+					}]
+				}]
+			}, {
+				"name": "cemetery",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "cemetery",
+						"label": "cemetery",
+						"size": 3040
+					}, {
+						"name": "Jewish cemetery",
+						"label": "Jewish cemetery",
+						"size": 1037
+					}, {
+						"name": "Commonwealth War Graves Commission maintained cemetery",
+						"label": "Commonwealth War Graves Commission maintained cemetery",
+						"size": 1562
+					}]
+				}]
+			}, {
+				"name": "museum & art galery",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "museum",
+						"label": "museum",
+						"size": 2395
+					}, {
+						"name": "art museum",
+						"label": "art museum",
+						"size": 1658
+					}, {
+						"name": "museum ship",
+						"label": "museum ship",
+						"size": 393
+					}, {
+						"name": "contemporary art gallery",
+						"label": "contemporary art gallery",
+						"size": 363
+					}, {
+						"name": "sculpture garden",
+						"label": "sculpture garden",
+						"size": 172
+					}, {
+						"name": "maritime museum",
+						"label": "maritime museum",
+						"size": 149
+					}, {
+						"name": "historic house museum",
+						"label": "historic house museum",
+						"size": 192
+					}, {
+						"name": "Mus\u00e9e de France",
+						"label": "Mus\u00e9e de France",
+						"size": 137
+					}, {
+						"name": "military museum",
+						"label": "military museum",
+						"size": 741
+					}]
+				}]
+			}, {
+				"name": "observatory",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "observatory",
+						"label": "observatory",
+						"size": 591
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "house",
+						"label": "house",
+						"size": 1390
+					}, {
+						"name": "villa",
+						"label": "villa",
+						"size": 381
+					}, {
+						"name": "library",
+						"label": "library",
+						"size": 226
+					}, {
+						"name": "shopping mall",
+						"label": "shopping mall",
+						"size": 520
+					}, {
+						"name": "national library",
+						"label": "national library",
+						"size": 181
+					}, {
+						"name": "theater",
+						"label": "theater",
+						"size": 357
+					}, {
+						"name": "hotel",
+						"label": "hotel",
+						"size": 120
+					}, {
+						"name": "windmill",
+						"label": "windmill",
+						"size": 362
+					}, {
+						"name": "lighthouse",
+						"label": "lighthouse",
+						"size": 1509
+					}, {
+						"name": "building",
+						"label": "building",
+						"size": 1140
+					}, {
+						"name": "movie theater",
+						"label": "movie theater",
+						"size": 176
+					}, {
+						"name": "fortification",
+						"label": "fortification",
+						"size": 638
+					}, {
+						"name": "city gate",
+						"label": "city gate",
+						"size": 131
+					}, {
+						"name": "farm",
+						"label": "farm",
+						"size": 283
+					}, {
+						"name": "mountain hut",
+						"label": "mountain hut",
+						"size": 104
+					}, {
+						"name": "watermill",
+						"label": "watermill",
+						"size": 118
+					}, {
+						"name": "stadium",
+						"label": "stadium",
+						"size": 1381
+					}, {
+						"name": "city or town hall",
+						"label": "city or town hall",
+						"size": 487
+					}, {
+						"name": "architectural heritage monument",
+						"label": "architectural heritage monument",
+						"size": 193
+					}, {
+						"name": "police station",
+						"label": "police station",
+						"size": 104
+					}, {
+						"name": "manor house",
+						"label": "manor house",
+						"size": 285
+					}, {
+						"name": "Roman villa",
+						"label": "Roman villa",
+						"size": 100
+					}, {
+						"name": "football stadium",
+						"label": "football stadium",
+						"size": 1328
+					}, {
+						"name": "English country house",
+						"label": "English country house",
+						"size": 606
+					}, {
+						"name": "embassy",
+						"label": "embassy",
+						"size": 101
+					}, {
+						"name": "historic house",
+						"label": "historic house",
+						"size": 1610
+					}, {
+						"name": "Kulturdenkmal",
+						"label": "Kulturdenkmal",
+						"size": 1105
+					}, {
+						"name": "Baudenkmal",
+						"label": "Baudenkmal",
+						"size": 106
+					}]
+				}]
+			}, {
+				"name": "prison",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "prison",
+						"label": "prison",
+						"size": 248
+					}]
+				}]
+			}, {
+				"name": "religious building",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "cathedral",
+						"label": "cathedral",
+						"size": 879
+					}, {
+						"name": "church",
+						"label": "church",
+						"size": 21938
+					}, {
+						"name": "mosque",
+						"label": "mosque",
+						"size": 296
+					}, {
+						"name": "synagogue",
+						"label": "synagogue",
+						"size": 1398
+					}, {
+						"name": "monastery",
+						"label": "monastery",
+						"size": 627
+					}, {
+						"name": "chapel",
+						"label": "chapel",
+						"size": 290
+					}, {
+						"name": "abbey",
+						"label": "abbey",
+						"size": 569
+					}, {
+						"name": "basilica",
+						"label": "basilica",
+						"size": 185
+					}, {
+						"name": "parish church",
+						"label": "parish church",
+						"size": 115
+					}, {
+						"name": "Wat",
+						"label": "Wat",
+						"size": 750
+					}, {
+						"name": "Buddhist temple",
+						"label": "Buddhist temple",
+						"size": 1038
+					}]
+				}]
+			}, {
+				"name": "skyscraper",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "skyscraper",
+						"label": "skyscraper",
+						"size": 1575
+					}]
+				}]
+			}, {
+				"name": "tomb",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "tomb",
+						"label": "tomb",
+						"size": 239
+					}]
+				}]
+			}, {
+				"name": "tower",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "tower",
+						"label": "tower",
+						"size": 1360
+					}, {
+						"name": "tower block",
+						"label": "tower block",
+						"size": 407
+					}, {
+						"name": "Bismarck tower",
+						"label": "Bismarck tower",
+						"size": 124
+					}, {
+						"name": "Towers in medieval fortifications",
+						"label": "Towers in medieval fortifications",
+						"size": 123
+					}, {
+						"name": "observation tower",
+						"label": "observation tower",
+						"size": 221
+					}, {
+						"name": "commune of Burundi",
+						"label": "commune of Burundi",
+						"size": 126
+					}, {
+						"name": "communication tower",
+						"label": "communication tower",
+						"size": 101
+					}]
+				}]
+			}]
+		}, {
+			"name": "infrastructure",
+			"children": [{
+				"name": "airport",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "international airport",
+						"label": "international airport",
+						"size": 120
+					}, {
+						"name": "airport",
+						"label": "airport",
+						"size": 10901
+					}]
+				}]
+			}, {
+				"name": "bridge",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "bridge",
+						"label": "bridge",
+						"size": 4171
+					}, {
+						"name": "suspension bridge",
+						"label": "suspension bridge",
+						"size": 209
+					}, {
+						"name": "truss bridge",
+						"label": "truss bridge",
+						"size": 228
+					}, {
+						"name": "arch bridge",
+						"label": "arch bridge",
+						"size": 138
+					}, {
+						"name": "bascule bridge",
+						"label": "bascule bridge",
+						"size": 122
+					}, {
+						"name": "cantilever bridge",
+						"label": "cantilever bridge",
+						"size": 122
+					}, {
+						"name": "covered bridge",
+						"label": "covered bridge",
+						"size": 246
+					}, {
+						"name": "deck arch bridge",
+						"label": "deck arch bridge",
+						"size": 222
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "airplane",
+						"label": "airplane",
+						"size": 208
+					}, {
+						"name": "aircraft",
+						"label": "aircraft",
+						"size": 1306
+					}, {
+						"name": "cul-de-sac",
+						"label": "cul-de-sac",
+						"size": 181
+					}, {
+						"name": "aerodrome",
+						"label": "aerodrome",
+						"size": 237
+					}, {
+						"name": "thoroughfare",
+						"label": "thoroughfare",
+						"size": 2571
+					}, {
+						"name": "nuclear power plant",
+						"label": "nuclear power plant",
+						"size": 225
+					}, {
+						"name": "water tower",
+						"label": "water tower",
+						"size": 182
+					}, {
+						"name": "junction",
+						"label": "junction",
+						"size": 543
+					}, {
+						"name": "railway line",
+						"label": "railway line",
+						"size": 3538
+					}, {
+						"name": "mine",
+						"label": "mine",
+						"size": 194
+					}, {
+						"name": "arch dam",
+						"label": "arch dam",
+						"size": 116
+					}, {
+						"name": "coal mine",
+						"label": "coal mine",
+						"size": 250
+					}, {
+						"name": "wooden roller coaster",
+						"label": "wooden roller coaster",
+						"size": 166
+					}, {
+						"name": "flying boat",
+						"label": "flying boat",
+						"size": 390
+					}, {
+						"name": "embankment dam",
+						"label": "embankment dam",
+						"size": 371
+					}, {
+						"name": "railway tunnel",
+						"label": "railway tunnel",
+						"size": 155
+					}, {
+						"name": "station building",
+						"label": "station building",
+						"size": 109
+					}, {
+						"name": "road tunnel",
+						"label": "road tunnel",
+						"size": 160
+					}, {
+						"name": "steel roller coaster",
+						"label": "steel roller coaster",
+						"size": 559
+					}, {
+						"name": "floatplane",
+						"label": "floatplane",
+						"size": 277
+					}, {
+						"name": "bus route",
+						"label": "bus route",
+						"size": 177
+					}, {
+						"name": "interchange",
+						"label": "interchange",
+						"size": 873
+					}, {
+						"name": "gravity dam",
+						"label": "gravity dam",
+						"size": 220
+					}, {
+						"name": "walkway",
+						"label": "walkway",
+						"size": 294
+					}, {
+						"name": "aircraft model",
+						"label": "aircraft model",
+						"size": 823
+					}, {
+						"name": "metro line",
+						"label": "metro line",
+						"size": 241
+					}, {
+						"name": "tram line",
+						"label": "tram line",
+						"size": 263
+					}]
+				}]
+			}, {
+				"name": "qanat",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "qanat",
+						"label": "qanat",
+						"size": 13577
+					}]
+				}]
+			}, {
+				"name": "railway station",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "railway station",
+						"label": "railway station",
+						"size": 65032
+					}, {
+						"name": "railway halt",
+						"label": "railway halt",
+						"size": 450
+					}, {
+						"name": "metro station",
+						"label": "metro station",
+						"size": 5208
+					}]
+				}]
+			}, {
+				"name": "road",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "road",
+						"label": "road",
+						"size": 19176
+					}, {
+						"name": "international E-road network",
+						"label": "international E-road network",
+						"size": 233
+					}, {
+						"name": "highway",
+						"label": "highway",
+						"size": 159
+					}, {
+						"name": "German autobahn",
+						"label": "German autobahn",
+						"size": 187
+					}, {
+						"name": "Bundesstra\u00dfe",
+						"label": "Bundesstra\u00dfe",
+						"size": 455
+					}, {
+						"name": "Route nationale",
+						"label": "Route nationale",
+						"size": 738
+					}, {
+						"name": "national road in Belgium",
+						"label": "national road in Belgium",
+						"size": 516
+					}, {
+						"name": "Provincial route",
+						"label": "Provincial route",
+						"size": 560
+					}, {
+						"name": "Latvia regional road",
+						"label": "Latvia regional road",
+						"size": 132
+					}]
+				}, {
+					"name": "square",
+					"children": [{
+						"name": "square",
+						"label": "square",
+						"size": 3079
+					}, {
+						"name": "square",
+						"label": "square",
+						"size": 156
+					}]
+				}, {
+					"name": "street",
+					"children": [{
+						"name": "boulevard",
+						"label": "boulevard",
+						"size": 148
+					}, {
+						"name": "street",
+						"label": "street",
+						"size": 9193
+					}, {
+						"name": "side street",
+						"label": "side street",
+						"size": 446
+					}, {
+						"name": "avenue",
+						"label": "avenue",
+						"size": 372
+					}]
+				}, {
+					"name": "villa",
+					"children": [{
+						"name": "Villa",
+						"label": "Villa",
+						"size": 214
+					}]
+				}]
+			}, {
+				"name": "sports venue",
+				"children": [{
+					"name": "horse racing venue",
+					"children": [{
+						"name": "horse racing venue",
+						"label": "horse racing venue",
+						"size": 269
+					}]
+				}, {
+					"name": "race track",
+					"children": [{
+						"name": "race track",
+						"label": "race track",
+						"size": 161
+					}]
+				}]
+			}, {
+				"name": "tram system",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "tram system",
+						"label": "tram system",
+						"size": 573
+					}]
+				}]
+			}]
+		}, {
+			"name": "natural geographical entity",
+			"children": [{
+				"name": "body of water",
+				"children": [{
+					"name": "lake",
+					"children": [{
+						"name": "lake",
+						"label": "lake",
+						"size": 21926
+					}, {
+						"name": "reservoir",
+						"label": "reservoir",
+						"size": 870
+					}]
+				}, {
+					"name": "other",
+					"children": [{
+						"name": "sea",
+						"label": "sea",
+						"size": 107
+					}, {
+						"name": "bay",
+						"label": "bay",
+						"size": 763
+					}]
+				}, {
+					"name": "watercourse",
+					"children": [{
+						"name": "river",
+						"label": "river",
+						"size": 57340
+					}, {
+						"name": "canal",
+						"label": "canal",
+						"size": 624
+					}, {
+						"name": "waterfall",
+						"label": "waterfall",
+						"size": 1586
+					}, {
+						"name": "stream",
+						"label": "stream",
+						"size": 301
+					}, {
+						"name": "wadi",
+						"label": "wadi",
+						"size": 715
+					}, {
+						"name": "watercourse",
+						"label": "watercourse",
+						"size": 4119
+					}]
+				}]
+			}, {
+				"name": "forest",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "forest",
+						"label": "forest",
+						"size": 309
+					}]
+				}]
+			}, {
+				"name": "glacier",
+				"children": [{
+					"name": "glacier",
+					"children": [{
+						"name": "glacier",
+						"label": "glacier",
+						"size": 2267
+					}]
+				}]
+			}, {
+				"name": "impact crater",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "impact crater",
+						"label": "impact crater",
+						"size": 1512
+					}, {
+						"name": "lunar crater",
+						"label": "lunar crater",
+						"size": 805
+					}]
+				}]
+			}, {
+				"name": "island",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "island",
+						"label": "island",
+						"size": 6478
+					}, {
+						"name": "archipelago",
+						"label": "archipelago",
+						"size": 173
+					}, {
+						"name": "river island",
+						"label": "river island",
+						"size": 223
+					}, {
+						"name": "tidal island",
+						"label": "tidal island",
+						"size": 105
+					}]
+				}]
+			}, {
+				"name": "mountain & mountain range",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "mountain",
+						"label": "mountain",
+						"size": 25065
+					}, {
+						"name": "mountain range",
+						"label": "mountain range",
+						"size": 1929
+					}, {
+						"name": "hill",
+						"label": "hill",
+						"size": 275
+					}, {
+						"name": "mountain pass",
+						"label": "mountain pass",
+						"size": 1722
+					}]
+				}, {
+					"name": "sierra",
+					"children": [{
+						"name": "sierra",
+						"label": "sierra",
+						"size": 120
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "volcano",
+						"label": "volcano",
+						"size": 262
+					}, {
+						"name": "peninsula",
+						"label": "peninsula",
+						"size": 175
+					}, {
+						"name": "valley",
+						"label": "valley",
+						"size": 203
+					}, {
+						"name": "beach",
+						"label": "beach",
+						"size": 161
+					}, {
+						"name": "natural landscape",
+						"label": "natural landscape",
+						"size": 680
+					}, {
+						"name": "natural gas field",
+						"label": "natural gas field",
+						"size": 328
+					}]
+				}]
+			}, {
+				"name": "plantation",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "plantation",
+						"label": "plantation",
+						"size": 562
+					}]
+				}]
+			}, {
+				"name": "polder",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "polder",
+						"label": "polder",
+						"size": 1557
+					}]
+				}]
+			}, {
+				"name": "protected area",
+				"children": [{
+					"name": "archaeological site",
+					"children": [{
+						"name": "archaeological site",
+						"label": "archaeological site",
+						"size": 303
+					}]
+				}, {
+					"name": "National natural monuments in the Czech Republic",
+					"children": [{
+						"name": "National natural monuments in the Czech Republic",
+						"label": "National natural monuments in the Czech Republic",
+						"size": 114
+					}]
+				}, {
+					"name": "other",
+					"children": [{
+						"name": "natural monument",
+						"label": "natural monument",
+						"size": 1328
+					}, {
+						"name": "national park",
+						"label": "national park",
+						"size": 214
+					}, {
+						"name": "nature reserve",
+						"label": "nature reserve",
+						"size": 909
+					}, {
+						"name": "protected area",
+						"label": "protected area",
+						"size": 7718
+					}, {
+						"name": "Naturschutzgebiet",
+						"label": "Naturschutzgebiet",
+						"size": 257
+					}, {
+						"name": "state park",
+						"label": "state park",
+						"size": 184
+					}, {
+						"name": "",
+						"label": "",
+						"size": 117
+					}, {
+						"name": "Natura 2000 protected area",
+						"label": "Natura 2000 protected area",
+						"size": 146
+					}, {
+						"name": "R\u00e9serve naturelle r\u00e9gionale",
+						"label": "R\u00e9serve naturelle r\u00e9gionale",
+						"size": 151
+					}]
+				}, {
+					"name": "recreation area",
+					"children": [{
+						"name": "leisure area",
+						"label": "leisure area",
+						"size": 114
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "park",
+						"label": "park",
+						"size": 306
+					}, {
+						"name": "urban park",
+						"label": "urban park",
+						"size": 824
+					}, {
+						"name": "meridian",
+						"label": "meridian",
+						"size": 367
+					}, {
+						"name": "cave",
+						"label": "cave",
+						"size": 346
+					}, {
+						"name": "strait",
+						"label": "strait",
+						"size": 171
+					}, {
+						"name": "zoo",
+						"label": "zoo",
+						"size": 703
+					}, {
+						"name": "barangay",
+						"label": "barangay",
+						"size": 101
+					}, {
+						"name": "county seat",
+						"label": "county seat",
+						"size": 136
+					}, {
+						"name": "barracks",
+						"label": "barracks",
+						"size": 156
+					}, {
+						"name": "circle of latitude",
+						"label": "circle of latitude",
+						"size": 181
+					}, {
+						"name": "botanical garden",
+						"label": "botanical garden",
+						"size": 1370
+					}, {
+						"name": "cape",
+						"label": "cape",
+						"size": 167
+					}, {
+						"name": "amusement park",
+						"label": "amusement park",
+						"size": 129
+					}, {
+						"name": "oil field",
+						"label": "oil field",
+						"size": 214
+					}, {
+						"name": "Site of Special Scientific Interest",
+						"label": "Site of Special Scientific Interest",
+						"size": 1048
+					}, {
+						"name": "gracht",
+						"label": "gracht",
+						"size": 144
+					}, {
+						"name": "geographical object",
+						"label": "geographical object",
+						"size": 12492
+					}, {
+						"name": "rest area",
+						"label": "rest area",
+						"size": 272
+					}, {
+						"name": "Prospekt",
+						"label": "Prospekt",
+						"size": 105
+					}, {
+						"name": "Rocca",
+						"label": "Rocca",
+						"size": 103
+					}, {
+						"name": "New England town",
+						"label": "New England town",
+						"size": 275
+					}, {
+						"name": "sluice",
+						"label": "sluice",
+						"size": 141
+					}, {
+						"name": "sumu",
+						"label": "sumu",
+						"size": 114
+					}, {
+						"name": "union council of Pakistan",
+						"label": "union council of Pakistan",
+						"size": 138
+					}, {
+						"name": "maritime boundary",
+						"label": "maritime boundary",
+						"size": 189
+					}, {
+						"name": "urban-rural gmina",
+						"label": "urban-rural gmina",
+						"size": 601
+					}, {
+						"name": "\u00e5",
+						"label": "\u00e5",
+						"size": 122
+					}, {
+						"name": "district of Uganda",
+						"label": "district of Uganda",
+						"size": 114
+					}, {
+						"name": "alevik",
+						"label": "alevik",
+						"size": 166
+					}, {
+						"name": "dava",
+						"label": "dava",
+						"size": 124
+					}, {
+						"name": "coal power plant",
+						"label": "coal power plant",
+						"size": 172
+					}, {
+						"name": "Thesaban Mueang",
+						"label": "Thesaban Mueang",
+						"size": 149
+					}, {
+						"name": "county of Georgia",
+						"label": "county of Georgia",
+						"size": 159
+					}, {
+						"name": "county of Kentucky",
+						"label": "county of Kentucky",
+						"size": 119
+					}, {
+						"name": "estate",
+						"label": "estate",
+						"size": 214
+					}, {
+						"name": "partido",
+						"label": "partido",
+						"size": 135
+					}, {
+						"name": "cit\u00e9",
+						"label": "cit\u00e9",
+						"size": 100
+					}, {
+						"name": "land boundary",
+						"label": "land boundary",
+						"size": 316
+					}, {
+						"name": "",
+						"label": "",
+						"size": 215
+					}, {
+						"name": "IANA time zone",
+						"label": "IANA time zone",
+						"size": 237
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "group of humans",
+		"children": [{
+			"name": "band",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "band",
+						"label": "band",
+						"size": 33389
+					}, {
+						"name": "rock band",
+						"label": "rock band",
+						"size": 1020
+					}, {
+						"name": "sertanejo duo",
+						"label": "sertanejo duo",
+						"size": 107
+					}]
+				}]
+			}]
+		}, {
+			"name": "ethnic group",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "ethnic group",
+						"label": "ethnic group",
+						"size": 143
+					}]
+				}]
+			}]
+		}, {
+			"name": "family",
+			"children": [{
+				"name": "dynasty",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "dynasty",
+						"label": "dynasty",
+						"size": 336
+					}]
+				}]
+			}, {
+				"name": "noble family",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "noble family",
+						"label": "noble family",
+						"size": 2279
+					}, {
+						"name": "Dutch noble family",
+						"label": "Dutch noble family",
+						"size": 428
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "family",
+						"label": "family",
+						"size": 318
+					}, {
+						"name": "sibling duo",
+						"label": "sibling duo",
+						"size": 264
+					}, {
+						"name": "twins",
+						"label": "twins",
+						"size": 116
+					}, {
+						"name": "married couple",
+						"label": "married couple",
+						"size": 115
+					}]
+				}]
+			}]
+		}, {
+			"name": "organization",
+			"children": [{
+				"name": "company",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "restaurant",
+						"label": "restaurant",
+						"size": 330
+					}, {
+						"name": "radio station",
+						"label": "radio station",
+						"size": 17213
+					}, {
+						"name": "record label",
+						"label": "record label",
+						"size": 2965
+					}, {
+						"name": "airline",
+						"label": "airline",
+						"size": 3147
+					}, {
+						"name": "brewery",
+						"label": "brewery",
+						"size": 303
+					}, {
+						"name": "shipyard",
+						"label": "shipyard",
+						"size": 145
+					}, {
+						"name": "video game developer",
+						"label": "video game developer",
+						"size": 342
+					}, {
+						"name": "pub",
+						"label": "pub",
+						"size": 357
+					}, {
+						"name": "film studio",
+						"label": "film studio",
+						"size": 277
+					}, {
+						"name": "company",
+						"label": "company",
+						"size": 39908
+					}, {
+						"name": "automobile manufacturer",
+						"label": "automobile manufacturer",
+						"size": 1849
+					}, {
+						"name": "public company",
+						"label": "public company",
+						"size": 850
+					}, {
+						"name": "aerospace manufacturer",
+						"label": "aerospace manufacturer",
+						"size": 128
+					}, {
+						"name": "animation studio",
+						"label": "animation studio",
+						"size": 200
+					}, {
+						"name": "kabushiki gaisha",
+						"label": "kabushiki gaisha",
+						"size": 196
+					}, {
+						"name": "television station",
+						"label": "television station",
+						"size": 1070
+					}, {
+						"name": "production company",
+						"label": "production company",
+						"size": 1471
+					}, {
+						"name": "publisher",
+						"label": "publisher",
+						"size": 2295
+					}, {
+						"name": "architectural firm",
+						"label": "architectural firm",
+						"size": 263
+					}, {
+						"name": "business",
+						"label": "business",
+						"size": 283
+					}, {
+						"name": "Sparkasse",
+						"label": "Sparkasse",
+						"size": 241
+					}, {
+						"name": "historical motorcycle manufacturer",
+						"label": "historical motorcycle manufacturer",
+						"size": 2550
+					}]
+				}]
+			}, {
+				"name": "hospital",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "hospital",
+						"label": "hospital",
+						"size": 2972
+					}]
+				}]
+			}, {
+				"name": "military unit",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "regiment",
+						"label": "regiment",
+						"size": 432
+					}, {
+						"name": "division",
+						"label": "division",
+						"size": 984
+					}, {
+						"name": "military unit",
+						"label": "military unit",
+						"size": 1287
+					}, {
+						"name": "military academy",
+						"label": "military academy",
+						"size": 110
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "research institute",
+						"label": "research institute",
+						"size": 162
+					}, {
+						"name": "organization",
+						"label": "organization",
+						"size": 7631
+					}, {
+						"name": "association",
+						"label": "association",
+						"size": 103
+					}, {
+						"name": "unicameral legislature",
+						"label": "unicameral legislature",
+						"size": 103
+					}, {
+						"name": "nonprofit organization",
+						"label": "nonprofit organization",
+						"size": 268
+					}, {
+						"name": "ministry",
+						"label": "ministry",
+						"size": 163
+					}, {
+						"name": "seminary",
+						"label": "seminary",
+						"size": 575
+					}, {
+						"name": "government agency",
+						"label": "government agency",
+						"size": 195
+					}, {
+						"name": "Academy of Sciences",
+						"label": "Academy of Sciences",
+						"size": 112
+					}, {
+						"name": "international organization",
+						"label": "international organization",
+						"size": 277
+					}, {
+						"name": "sports league",
+						"label": "sports league",
+						"size": 213
+					}, {
+						"name": "cabinet",
+						"label": "cabinet",
+						"size": 918
+					}, {
+						"name": "charitable organization",
+						"label": "charitable organization",
+						"size": 212
+					}, {
+						"name": "samba school",
+						"label": "samba school",
+						"size": 611
+					}, {
+						"name": "historical society",
+						"label": "historical society",
+						"size": 182
+					}, {
+						"name": "eingetragener Verein",
+						"label": "eingetragener Verein",
+						"size": 517
+					}, {
+						"name": "Esperanto organization",
+						"label": "Esperanto organization",
+						"size": 203
+					}, {
+						"name": "football league",
+						"label": "football league",
+						"size": 200
+					}]
+				}]
+			}, {
+				"name": "political party",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "political party",
+						"label": "political party",
+						"size": 4621
+					}, {
+						"name": "political party in Spain",
+						"label": "political party in Spain",
+						"size": 283
+					}]
+				}]
+			}, {
+				"name": "school & university",
+				"children": [{
+					"name": "high school",
+					"children": [{
+						"name": "high school",
+						"label": "high school",
+						"size": 11942
+					}, {
+						"name": "gymnasium",
+						"label": "gymnasium",
+						"size": 119
+					}]
+				}, {
+					"name": "other",
+					"children": [{
+						"name": "Hochschule",
+						"label": "Hochschule",
+						"size": 100
+					}, {
+						"name": "college",
+						"label": "college",
+						"size": 150
+					}, {
+						"name": "art school",
+						"label": "art school",
+						"size": 117
+					}, {
+						"name": "law school",
+						"label": "law school",
+						"size": 234
+					}, {
+						"name": "community college",
+						"label": "community college",
+						"size": 151
+					}, {
+						"name": "Fachhochschule",
+						"label": "Fachhochschule",
+						"size": 139
+					}]
+				}, {
+					"name": "school",
+					"children": [{
+						"name": "school",
+						"label": "school",
+						"size": 2244
+					}, {
+						"name": "primary school",
+						"label": "primary school",
+						"size": 557
+					}, {
+						"name": "secondary school",
+						"label": "secondary school",
+						"size": 219
+					}, {
+						"name": "grammar school",
+						"label": "grammar school",
+						"size": 316
+					}]
+				}, {
+					"name": "university",
+					"children": [{
+						"name": "university",
+						"label": "university",
+						"size": 3492
+					}]
+				}]
+			}, {
+				"name": "sports club & team",
+				"children": [{
+					"name": "association football club",
+					"children": [{
+						"name": "association football club",
+						"label": "association football club",
+						"size": 25123
+					}, {
+						"name": "national football team",
+						"label": "national football team",
+						"size": 539
+					}, {
+						"name": "amateur football team",
+						"label": "amateur football team",
+						"size": 2558
+					}]
+				}, {
+					"name": "other",
+					"children": [{
+						"name": "sports club",
+						"label": "sports club",
+						"size": 2824
+					}, {
+						"name": "national sports team",
+						"label": "national sports team",
+						"size": 1536
+					}, {
+						"name": "ice hockey team",
+						"label": "ice hockey team",
+						"size": 257
+					}, {
+						"name": "handball team",
+						"label": "handball team",
+						"size": 210
+					}, {
+						"name": "baseball team",
+						"label": "baseball team",
+						"size": 210
+					}, {
+						"name": "basketball team",
+						"label": "basketball team",
+						"size": 754
+					}, {
+						"name": "rugby union team",
+						"label": "rugby union team",
+						"size": 165
+					}, {
+						"name": "American football club",
+						"label": "American football club",
+						"size": 108
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "duo",
+						"label": "duo",
+						"size": 284
+					}, {
+						"name": "group of humans",
+						"label": "group of humans",
+						"size": 202
+					}]
+				}]
+			}]
+		}, {
+			"name": "theatre company",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "theatre company",
+						"label": "theatre company",
+						"size": 674
+					}, {
+						"name": "double act",
+						"label": "double act",
+						"size": 1188
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "living organism",
+		"children": [{
+			"name": "horse",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "horse",
+						"label": "horse",
+						"size": 3082
+					}, {
+						"name": "Thoroughbred",
+						"label": "Thoroughbred",
+						"size": 1802
+					}, {
+						"name": "horse breed",
+						"label": "horse breed",
+						"size": 355
+					}]
+				}]
+			}]
+		}, {
+			"name": "human",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "human",
+						"label": "human",
+						"size": 2424305
+					}, {
+						"name": "Vikings",
+						"label": "Vikings",
+						"size": 111
+					}, {
+						"name": "twin",
+						"label": "twin",
+						"size": 356
+					}, {
+						"name": "eunuch",
+						"label": "eunuch",
+						"size": 101
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "remarkable tree",
+						"label": "remarkable tree",
+						"size": 872
+					}]
+				}]
+			}]
+		}, {
+			"name": "taxon",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "apple",
+						"label": "apple",
+						"size": 143
+					}, {
+						"name": "taxon",
+						"label": "taxon",
+						"size": 1742602
+					}, {
+						"name": "dog type",
+						"label": "dog type",
+						"size": 113
+					}, {
+						"name": "dog breed",
+						"label": "dog breed",
+						"size": 564
+					}, {
+						"name": "monotypic taxon",
+						"label": "monotypic taxon",
+						"size": 8726
+					}, {
+						"name": "common name",
+						"label": "common name",
+						"size": 153
+					}, {
+						"name": "chicken breed",
+						"label": "chicken breed",
+						"size": 217
+					}, {
+						"name": "rabbit breed",
+						"label": "rabbit breed",
+						"size": 108
+					}, {
+						"name": "sheep breed",
+						"label": "sheep breed",
+						"size": 152
+					}, {
+						"name": "pigeon breed",
+						"label": "pigeon breed",
+						"size": 202
+					}, {
+						"name": "apple cultivar",
+						"label": "apple cultivar",
+						"size": 106
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "manufactured object",
+		"children": [{
+			"name": "beer brand",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "beer brand",
+						"label": "beer brand",
+						"size": 573
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "smartphone",
+						"label": "smartphone",
+						"size": 201
+					}, {
+						"name": "space probe",
+						"label": "space probe",
+						"size": 111
+					}, {
+						"name": "cocktail",
+						"label": "cocktail",
+						"size": 232
+					}, {
+						"name": "communications satellite",
+						"label": "communications satellite",
+						"size": 661
+					}, {
+						"name": "plucked string instrument",
+						"label": "plucked string instrument",
+						"size": 148
+					}, {
+						"name": "spy satellite",
+						"label": "spy satellite",
+						"size": 150
+					}, {
+						"name": "Earth observation satellite",
+						"label": "Earth observation satellite",
+						"size": 164
+					}, {
+						"name": "cow's-milk cheese",
+						"label": "cow's-milk cheese",
+						"size": 109
+					}, {
+						"name": "engine family",
+						"label": "engine family",
+						"size": 114
+					}, {
+						"name": "motorcycle manufacturer",
+						"label": "motorcycle manufacturer",
+						"size": 115
+					}]
+				}]
+			}]
+		}, {
+			"name": "vehicle",
+			"children": [{
+				"name": "aircraft",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "aircraft family",
+						"label": "aircraft family",
+						"size": 271
+					}]
+				}]
+			}, {
+				"name": "automobile & trucks",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "automobile",
+						"label": "automobile",
+						"size": 4567
+					}, {
+						"name": "truck",
+						"label": "truck",
+						"size": 329
+					}, {
+						"name": "armored car",
+						"label": "armored car",
+						"size": 134
+					}, {
+						"name": "racing automobile",
+						"label": "racing automobile",
+						"size": 377
+					}]
+				}]
+			}, {
+				"name": "locomotive",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "locomotive",
+						"label": "locomotive",
+						"size": 2306
+					}, {
+						"name": "steam locomotive",
+						"label": "steam locomotive",
+						"size": 224
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "motorcycle",
+						"label": "motorcycle",
+						"size": 956
+					}, {
+						"name": "armoured personnel carrier",
+						"label": "armoured personnel carrier",
+						"size": 152
+					}, {
+						"name": "engine model",
+						"label": "engine model",
+						"size": 411
+					}]
+				}]
+			}, {
+				"name": "ship & watercraft",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "ship",
+						"label": "ship",
+						"size": 19370
+					}, {
+						"name": "icebreaker",
+						"label": "icebreaker",
+						"size": 137
+					}, {
+						"name": "ship class",
+						"label": "ship class",
+						"size": 792
+					}, {
+						"name": "training ship",
+						"label": "training ship",
+						"size": 256
+					}, {
+						"name": "Clemson-class destroyer",
+						"label": "Clemson-class destroyer",
+						"size": 156
+					}, {
+						"name": "watercraft",
+						"label": "watercraft",
+						"size": 1256
+					}, {
+						"name": "submarine class",
+						"label": "submarine class",
+						"size": 267
+					}, {
+						"name": "lead ship",
+						"label": "lead ship",
+						"size": 145
+					}, {
+						"name": "ship type",
+						"label": "ship type",
+						"size": 436
+					}, {
+						"name": "attack submarine",
+						"label": "attack submarine",
+						"size": 668
+					}]
+				}]
+			}]
+		}, {
+			"name": "weapon",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "cartridge",
+						"label": "cartridge",
+						"size": 510
+					}, {
+						"name": "revolver",
+						"label": "revolver",
+						"size": 126
+					}, {
+						"name": "assault rifle",
+						"label": "assault rifle",
+						"size": 180
+					}, {
+						"name": "submachine gun",
+						"label": "submachine gun",
+						"size": 179
+					}, {
+						"name": "sniper rifle",
+						"label": "sniper rifle",
+						"size": 117
+					}, {
+						"name": "Naval artillery",
+						"label": "Naval artillery",
+						"size": 148
+					}, {
+						"name": "Wickes-class destroyer",
+						"label": "Wickes-class destroyer",
+						"size": 111
+					}, {
+						"name": "Gearing-class destroyer",
+						"label": "Gearing-class destroyer",
+						"size": 104
+					}, {
+						"name": "semi-automatic pistol",
+						"label": "semi-automatic pistol",
+						"size": 265
+					}]
+				}]
+			}]
+		}, {
+			"name": "wine",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "wine",
+						"label": "wine",
+						"size": 2186
+					}, {
+						"name": "varietal",
+						"label": "varietal",
+						"size": 462
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "physical item",
+		"children": [{
+			"name": "asteroid",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "asteroid",
+						"label": "asteroid",
+						"size": 50650
+					}]
+				}]
+			}]
+		}, {
+			"name": "chemical entity",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "enzyme",
+						"label": "enzyme",
+						"size": 1996
+					}, {
+						"name": "chemical compound",
+						"label": "chemical compound",
+						"size": 14891
+					}, {
+						"name": "chemical element",
+						"label": "chemical element",
+						"size": 134
+					}]
+				}]
+			}]
+		}, {
+			"name": "galaxy",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "galaxy",
+						"label": "galaxy",
+						"size": 9672
+					}, {
+						"name": "interacting galaxy",
+						"label": "interacting galaxy",
+						"size": 247
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "natural satellite",
+						"label": "natural satellite",
+						"size": 160
+					}, {
+						"name": "astronomical object",
+						"label": "astronomical object",
+						"size": 332
+					}, {
+						"name": "globular cluster",
+						"label": "globular cluster",
+						"size": 117
+					}, {
+						"name": "open cluster",
+						"label": "open cluster",
+						"size": 203
+					}, {
+						"name": "planetary nebula",
+						"label": "planetary nebula",
+						"size": 108
+					}, {
+						"name": "extrasolar planet",
+						"label": "extrasolar planet",
+						"size": 551
+					}, {
+						"name": "binary star",
+						"label": "binary star",
+						"size": 239
+					}, {
+						"name": "brown dwarf",
+						"label": "brown dwarf",
+						"size": 472
+					}, {
+						"name": "star cluster",
+						"label": "star cluster",
+						"size": 432
+					}, {
+						"name": "formation",
+						"label": "formation",
+						"size": 300
+					}, {
+						"name": "multiple star",
+						"label": "multiple star",
+						"size": 270
+					}, {
+						"name": "Strela-1M",
+						"label": "Strela-1M",
+						"size": 360
+					}, {
+						"name": "Strela-3",
+						"label": "Strela-3",
+						"size": 129
+					}, {
+						"name": "",
+						"label": "",
+						"size": 101
+					}]
+				}]
+			}]
+		}, {
+			"name": "star",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "star",
+						"label": "star",
+						"size": 7687
+					}, {
+						"name": "F-type main-sequence star",
+						"label": "F-type main-sequence star",
+						"size": 232
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "symbolic entity",
+		"children": [{
+			"name": "award",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "military rank",
+						"label": "military rank",
+						"size": 135
+					}, {
+						"name": "order",
+						"label": "order",
+						"size": 137
+					}, {
+						"name": "award",
+						"label": "award",
+						"size": 5966
+					}]
+				}]
+			}]
+		}, {
+			"name": "concept",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "concept",
+						"label": "concept",
+						"size": 299
+					}]
+				}]
+			}]
+		}, {
+			"name": "country code top-level domain",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "country code top-level domain",
+						"label": "country code top-level domain",
+						"size": 277
+					}]
+				}]
+			}]
+		}, {
+			"name": "fictional & mythical entity",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "fictional character",
+						"label": "fictional character",
+						"size": 10115
+					}, {
+						"name": "deity",
+						"label": "deity",
+						"size": 707
+					}, {
+						"name": "List of Pok\u00e9mon species",
+						"label": "List of Pok\u00e9mon species",
+						"size": 104
+					}, {
+						"name": "nationality of men in Tolkien's legendarium",
+						"label": "nationality of men in Tolkien's legendarium",
+						"size": 202
+					}, {
+						"name": "water deity",
+						"label": "water deity",
+						"size": 467
+					}, {
+						"name": "fictional city",
+						"label": "fictional city",
+						"size": 141
+					}, {
+						"name": "mythical creature",
+						"label": "mythical creature",
+						"size": 136
+					}, {
+						"name": "fictional location",
+						"label": "fictional location",
+						"size": 172
+					}, {
+						"name": "Pok\u00e9mon species",
+						"label": "Pok\u00e9mon species",
+						"size": 128
+					}, {
+						"name": "wizard in the Harry Potter universe",
+						"label": "wizard in the Harry Potter universe",
+						"size": 110
+					}, {
+						"name": "mythical character",
+						"label": "mythical character",
+						"size": 1158
+					}, {
+						"name": "fictional human",
+						"label": "fictional human",
+						"size": 4062
+					}, {
+						"name": "fictional taxon",
+						"label": "fictional taxon",
+						"size": 135
+					}]
+				}]
+			}]
+		}, {
+			"name": "legal case",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "legal case",
+						"label": "legal case",
+						"size": 2779
+					}]
+				}]
+			}]
+		}, {
+			"name": "linguistic object",
+			"children": [{
+				"name": "first & family name",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "family name",
+						"label": "family name",
+						"size": 6655
+					}, {
+						"name": "given name",
+						"label": "given name",
+						"size": 4472
+					}, {
+						"name": "female given name",
+						"label": "female given name",
+						"size": 551
+					}, {
+						"name": "male first name",
+						"label": "male first name",
+						"size": 1903
+					}]
+				}]
+			}, {
+				"name": "letter",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "letter",
+						"label": "letter",
+						"size": 1261
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "language family",
+						"label": "language family",
+						"size": 363
+					}, {
+						"name": "\u05de\u05d1\u05d8\u05d0",
+						"label": "\u05de\u05d1\u05d8\u05d0",
+						"size": 366
+					}, {
+						"name": "language",
+						"label": "language",
+						"size": 6269
+					}]
+				}]
+			}]
+		}, {
+			"name": "natural number",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "natural number",
+						"label": "natural number",
+						"size": 1901
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "coat of arms",
+						"label": "coat of arms",
+						"size": 193
+					}, {
+						"name": "flag",
+						"label": "flag",
+						"size": 266
+					}, {
+						"name": "music genre",
+						"label": "music genre",
+						"size": 144
+					}, {
+						"name": "film genre",
+						"label": "film genre",
+						"size": 226
+					}, {
+						"name": "Titular church",
+						"label": "Titular church",
+						"size": 210
+					}, {
+						"name": "ISO 3166-2 data set of a specific country",
+						"label": "ISO 3166-2 data set of a specific country",
+						"size": 250
+					}]
+				}]
+			}]
+		}, {
+			"name": "Unicode block",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Unicode block",
+						"label": "Unicode block",
+						"size": 219
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "temporal entity",
+		"children": [{
+			"name": "event",
+			"children": [{
+				"name": "cultural event",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "film festival",
+						"label": "film festival",
+						"size": 346
+					}]
+				}]
+			}, {
+				"name": "historical event",
+				"children": [{
+					"name": "election",
+					"children": [{
+						"name": "election",
+						"label": "election",
+						"size": 206
+					}, {
+						"name": "by-election",
+						"label": "by-election",
+						"size": 804
+					}]
+				}, {
+					"name": "military event",
+					"children": [{
+						"name": "war",
+						"label": "war",
+						"size": 109
+					}, {
+						"name": "battle",
+						"label": "battle",
+						"size": 4747
+					}, {
+						"name": "siege",
+						"label": "siege",
+						"size": 790
+					}, {
+						"name": "peace treaty",
+						"label": "peace treaty",
+						"size": 370
+					}, {
+						"name": "military operation",
+						"label": "military operation",
+						"size": 197
+					}, {
+						"name": "middle ages battle",
+						"label": "middle ages battle",
+						"size": 730
+					}]
+				}, {
+					"name": "United Nations Security Council resolution",
+					"children": [{
+						"name": "United Nations Security Council resolution",
+						"label": "United Nations Security Council resolution",
+						"size": 2056
+					}]
+				}]
+			}, {
+				"name": "natural event",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "earthquake",
+						"label": "earthquake",
+						"size": 1012
+					}, {
+						"name": "lunar eclipse",
+						"label": "lunar eclipse",
+						"size": 296
+					}, {
+						"name": "Atlantic hurricane season",
+						"label": "Atlantic hurricane season",
+						"size": 156
+					}, {
+						"name": "Atlantic hurricane",
+						"label": "Atlantic hurricane",
+						"size": 360
+					}]
+				}, {
+					"name": "solar eclipse",
+					"children": [{
+						"name": "solar eclipse",
+						"label": "solar eclipse",
+						"size": 5215
+					}]
+				}]
+			}, {
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "World Congress of Esperanto",
+						"label": "World Congress of Esperanto",
+						"size": 100
+					}, {
+						"name": "directive",
+						"label": "directive",
+						"size": 106
+					}, {
+						"name": "season",
+						"label": "season",
+						"size": 1684
+					}, {
+						"name": "Arrest",
+						"label": "Arrest",
+						"size": 206
+					}, {
+						"name": "international observance",
+						"label": "international observance",
+						"size": 123
+					}, {
+						"name": "decision of Supreme Court of the Republic of China",
+						"label": "decision of Supreme Court of the Republic of China",
+						"size": 249
+					}]
+				}]
+			}, {
+				"name": "sport event",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Tour de France",
+						"label": "Tour de France",
+						"size": 100
+					}, {
+						"name": "Paris\u2013Roubaix",
+						"label": "Paris\u2013Roubaix",
+						"size": 112
+					}, {
+						"name": "Wimbledon Championships",
+						"label": "Wimbledon Championships",
+						"size": 128
+					}, {
+						"name": "French Open",
+						"label": "French Open",
+						"size": 113
+					}, {
+						"name": "Australian Open",
+						"label": "Australian Open",
+						"size": 102
+					}, {
+						"name": "US Open",
+						"label": "US Open",
+						"size": 133
+					}, {
+						"name": "Davis Cup",
+						"label": "Davis Cup",
+						"size": 102
+					}, {
+						"name": "tournament",
+						"label": "tournament",
+						"size": 314
+					}, {
+						"name": "Boston Marathon",
+						"label": "Boston Marathon",
+						"size": 117
+					}, {
+						"name": "All England Badminton Championships",
+						"label": "All England Badminton Championships",
+						"size": 104
+					}, {
+						"name": "FA Cup Final",
+						"label": "FA Cup Final",
+						"size": 132
+					}, {
+						"name": "tennis tournament",
+						"label": "tennis tournament",
+						"size": 400
+					}, {
+						"name": "golf tournament",
+						"label": "golf tournament",
+						"size": 1168
+					}, {
+						"name": "cycling race",
+						"label": "cycling race",
+						"size": 297
+					}, {
+						"name": "Men's Singles",
+						"label": "Men's Singles",
+						"size": 280
+					}, {
+						"name": "Women's Singles",
+						"label": "Women's Singles",
+						"size": 264
+					}, {
+						"name": "Women's Doubles",
+						"label": "Women's Doubles",
+						"size": 234
+					}, {
+						"name": "Mixed Doubles",
+						"label": "Mixed Doubles",
+						"size": 214
+					}, {
+						"name": "Men's Doubles",
+						"label": "Men's Doubles",
+						"size": 244
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "year",
+						"label": "year",
+						"size": 6925
+					}, {
+						"name": "month",
+						"label": "month",
+						"size": 246
+					}, {
+						"name": "decade",
+						"label": "decade",
+						"size": 452
+					}, {
+						"name": "public holiday",
+						"label": "public holiday",
+						"size": 100
+					}, {
+						"name": "determinator for date of periodic occurrence",
+						"label": "determinator for date of periodic occurrence",
+						"size": 805
+					}]
+				}]
+			}]
+		}]
+	}, {
+		"name": "wikimedia",
+		"children": [{
+			"name": "category page",
+			"children": [{
+				"name": "Wikimedia category page",
+				"label": "Wikimedia category page",
+				"size": 2397251
+			}, {
+				"name": "Wikimedia administration category page",
+				"label": "Wikimedia administration category page",
+				"size": 321
+			}]
+		}, {
+			"name": "disambiguation page",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Wikimedia disambiguation page",
+						"label": "Wikimedia disambiguation page",
+						"size": 774248
+					}]
+				}]
+			}]
+		}, {
+			"name": "list",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Wikimedia list article",
+						"label": "Wikimedia list article",
+						"size": 156027
+					}, {
+						"name": "set index",
+						"label": "set index",
+						"size": 715
+					}]
+				}]
+			}]
+		}, {
+			"name": "other",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "WikiProject",
+						"label": "WikiProject",
+						"size": 135
+					}, {
+						"name": "Wikimedia Portal",
+						"label": "Wikimedia Portal",
+						"size": 720
+					}, {
+						"name": "Wikimedia project namespace page",
+						"label": "Wikimedia project namespace page",
+						"size": 311
+					}]
+				}]
+			}]
+		}, {
+			"name": "template",
+			"children": [{
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Wikimedia template",
+						"label": "Wikimedia template",
+						"size": 158590
+					}]
+				}]
+			}]
+		}]
+	}]
+}
