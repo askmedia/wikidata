@@ -61,7 +61,7 @@ d3.json("tab4.json", function(error, root) {
       .attr("dx", function(d) { return d.children ? -8 : 8; })
       .attr("dy", 3)
       .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
-      .text(function(d) { return d.name; });
+      .text(function(d) { return d.name + (d.size ? ('-'+d.size) : ''); });
 });
 
 d3.select(self.frameElement).style("height", height + "px");
