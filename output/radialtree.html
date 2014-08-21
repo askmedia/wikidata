@@ -22,10 +22,49 @@
 	fill: transparent;
 }
 
+.creative-work, .root0 {
+	stroke: red;
+}
+.geographical-entity, .root1 {
+	stroke: blue;
+}
+.group-of-humans, .root2 {
+	stroke: green;
+}
+.living-organism, .root3 {
+	stroke: yellow;
+}
+.manufactured-object, .root4 {
+	stroke: black;
+}
+.physical-item, .root5 {
+	stroke: pink;
+}
+.symbolic-entity, .root6 {
+	stroke: maroon;
+}
+.temporal-entity, .root7 {
+	stroke: orange;
+}
+.wikimedia, .root8 {
+	stroke: violet;
+}
+
+
+
 </style>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
+
+function ancestor(d) {
+	if ( d.parent && d.parent.name ){
+		return ancestor(d.parent);
+	}
+	return d;
+}
+var rootIdx = 0;
+
 
 var diameter = 2500;
 
@@ -49,7 +88,15 @@ d3.json("tab4.json", function(error, root) {
 	var link = svg.selectAll(".link")
 			.data(links)
 			.enter().append("path")
-			.attr("class", "link")
+			.attr("class", function(d){
+				a = ancestor(d.source);
+				if (typeof a !== 'undefined' ) {
+					if (typeof a.name !== 'undefined' ) {
+						return a.name.replace(/ /g, '-') + ' link';
+					}
+				}
+				return 'link root' + rootIdx++;
+			})
 			.attr("d", diagonal);
 
 	var node = svg.selectAll(".node")
