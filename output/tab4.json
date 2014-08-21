@@ -30,81 +30,84 @@
 			}, {
 				"name": "other",
 				"children": [{
-					"name": "World Heritage Site",
-					"label": "World Heritage Site",
-					"size": 271
-				}, {
-					"name": "national historic landmark of the USA",
-					"label": "national historic landmark of the USA",
-					"size": 2134
-				}, {
-					"name": "national monument of the Czech Republic",
-					"label": "national monument of the Czech Republic",
-					"size": 340
-				}, {
-					"name": "National heritage site (Portugal)",
-					"label": "National heritage site (Portugal)",
-					"size": 338
-				}, {
-					"name": "monument historique",
-					"label": "monument historique",
-					"size": 126
-				}, {
-					"name": "national historic site of Canada",
-					"label": "national historic site of Canada",
-					"size": 272
-				}, {
-					"name": "historic district in the United States",
-					"label": "historic district in the United States",
-					"size": 1239
-				}, {
-					"name": "cultural property",
-					"label": "cultural property",
-					"size": 1983
-				}, {
-					"name": "cultural property of Belarus",
-					"label": "cultural property of Belarus",
-					"size": 660
-				}, {
-					"name": "protected townscape",
-					"label": "protected townscape",
-					"size": 295
-				}, {
-					"name": "heritage district in the Netherlands",
-					"label": "heritage district in the Netherlands",
-					"size": 177
-				}, {
-					"name": "protected cultural monuments in Serbia",
-					"label": "protected cultural monuments in Serbia",
-					"size": 261
-				}, {
-					"name": "Swiss cultural property of national significance",
-					"label": "Swiss cultural property of national significance",
-					"size": 1331
-				}, {
-					"name": "category A listed building",
-					"label": "category A listed building",
-					"size": 739
-				}, {
-					"name": "category B listed building",
-					"label": "category B listed building",
-					"size": 403
-				}, {
-					"name": "Beschermd erfgoed",
-					"label": "Beschermd erfgoed",
-					"size": 248
-				}, {
-					"name": "Swiss cultural property of regional significance",
-					"label": "Swiss cultural property of regional significance",
-					"size": 774
-				}, {
-					"name": "classified heritage immovable",
-					"label": "classified heritage immovable",
-					"size": 148
-				}, {
-					"name": "Romanian cultural property of national significance",
-					"label": "Romanian cultural property of national significance",
-					"size": 160
+					"name": "other",
+					"children": [{
+						"name": "World Heritage Site",
+						"label": "World Heritage Site",
+						"size": 271
+					}, {
+						"name": "national historic landmark of the USA",
+						"label": "national historic landmark of the USA",
+						"size": 2134
+					}, {
+						"name": "national monument of the Czech Republic",
+						"label": "national monument of the Czech Republic",
+						"size": 340
+					}, {
+						"name": "National heritage site (Portugal)",
+						"label": "National heritage site (Portugal)",
+						"size": 338
+					}, {
+						"name": "monument historique",
+						"label": "monument historique",
+						"size": 126
+					}, {
+						"name": "national historic site of Canada",
+						"label": "national historic site of Canada",
+						"size": 272
+					}, {
+						"name": "historic district in the United States",
+						"label": "historic district in the United States",
+						"size": 1239
+					}, {
+						"name": "cultural property",
+						"label": "cultural property",
+						"size": 1983
+					}, {
+						"name": "cultural property of Belarus",
+						"label": "cultural property of Belarus",
+						"size": 660
+					}, {
+						"name": "protected townscape",
+						"label": "protected townscape",
+						"size": 295
+					}, {
+						"name": "heritage district in the Netherlands",
+						"label": "heritage district in the Netherlands",
+						"size": 177
+					}, {
+						"name": "protected cultural monuments in Serbia",
+						"label": "protected cultural monuments in Serbia",
+						"size": 261
+					}, {
+						"name": "Swiss cultural property of national significance",
+						"label": "Swiss cultural property of national significance",
+						"size": 1331
+					}, {
+						"name": "category A listed building",
+						"label": "category A listed building",
+						"size": 739
+					}, {
+						"name": "category B listed building",
+						"label": "category B listed building",
+						"size": 403
+					}, {
+						"name": "Beschermd erfgoed",
+						"label": "Beschermd erfgoed",
+						"size": 248
+					}, {
+						"name": "Swiss cultural property of regional significance",
+						"label": "Swiss cultural property of regional significance",
+						"size": 774
+					}, {
+						"name": "classified heritage immovable",
+						"label": "classified heritage immovable",
+						"size": 148
+					}, {
+						"name": "Romanian cultural property of national significance",
+						"label": "Romanian cultural property of national significance",
+						"size": 160
+					}]
 				}]
 			}, {
 				"name": "Rijksmonument",
@@ -4076,13 +4079,19 @@
 		"children": [{
 			"name": "category page",
 			"children": [{
-				"name": "Wikimedia category page",
-				"label": "Wikimedia category page",
-				"size": 2397251
-			}, {
-				"name": "Wikimedia administration category page",
-				"label": "Wikimedia administration category page",
-				"size": 321
+				"name": "other",
+				"children": [{
+					"name": "other",
+					"children": [{
+						"name": "Wikimedia category page",
+						"label": "Wikimedia category page",
+						"size": 2397251
+					}, {
+						"name": "Wikimedia administration category page",
+						"label": "Wikimedia administration category page",
+						"size": 321
+					}]
+				}]
 			}]
 		}, {
 			"name": "disambiguation page",
