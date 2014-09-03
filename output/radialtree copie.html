@@ -129,10 +129,6 @@ var tree = d3.layout.tree()
 var diagonal = d3.svg.diagonal.radial()
 		.projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
 
-var sScale = d3.scale.sqrt() ; 
-
-var format = d3.format("0,000");
-
 var svg = d3.select("body").append("svg")
 		.attr("width", diameter)
 		.attr("height", diameter)
@@ -184,7 +180,7 @@ var rootIdx = 0;
 			.attr("text-anchor", function(d) { return (depth(d) < 4 ? "middle" : (d.x < 180 ? "start" : "end")); })
 			.attr("class", function(d){ return 'depth-'+depth(d); })
 			.attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-			.text(function(d) { return d.name === 'other' ? '' : d.name + ":" + format(d.size); });
+			.text(function(d) { return d.name === 'other' ? '' : d.name; });
 /*
 
 */
