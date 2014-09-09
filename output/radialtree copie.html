@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+circle {
+	stroke-width: 1.5px;
+	opacity: 0.5;
+}
+
+.node {
+	font: 9px sans-serif;
+}
+
+.link {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 1.5px;
+}
+
+.node circle {
+	fill: transparent;
+}
+
+.creative-work, .root0 {
+	stroke: red;
+}
+circle.creative-work {
+	stroke: red;
+	fill: red;
+}
+
+.geographical-entity, .root1 {
+	stroke: blue;
+}
+circle.geographical-entity {
+	fill: blue;
+}
+
+.group-of-humans, .root2 {
+	stroke: green;
+}
+circle.group-of-humans {
+	fill: green;
+}
+.living-organism, .root3 {
+	stroke: yellow;
+}
+circle.living-organism {
+	stroke: yellow;
+	fill: yellow;
+}
+.manufactured-object, .root4 {
+	stroke: black;
+}
+circle.manufactured-object {
+	stroke: grey;
+	fill: grey;
+}
+.physical-item, .root5 {
+	stroke: pink;
+}
+circle.physical-item {
+	stroke: pink;
+	fill: pink;
+}
+.symbolic-entity, .root6 {
+	stroke: maroon;
+}
+circle.symbolic-entity {
+	stroke: maroon;
+	fill: maroon;
+}
+.temporal-entity, .root7 {
+	stroke: orange;
+}
+circle.temporal-entity {
+	stroke: orange;
+	fill: orange;
+}
+.wikimedia, .root8 {
+	stroke: violet;
+}
+circle.wikimedia {
+	stroke: violet;
+	fill: violet;
+}
+
+
+.depth-0, .depth-1, .depth-2, .depth-3 {
+	font-size: 16px;
+}
+
+circle {
+	z-index: 1;
+}
+path {
+	z-index: 2
+}
+text {
+	z-index: 3;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+function ancestor(d) {
+	if ( d && d.parent && d.parent.name ){
+		return ancestor(d.parent);
+	}
+	return d;
+}
+function depth(d) {
+	if ( d.parent && d.parent.name ){
+		return parseInt(depth(d.parent), 10) + 1;
+	}
+	return 0;
+}
+
+var rootIdx = 0;
+
+var diameter = 2500;
+
+var tree = d3.layout.tree()
+		.size([360, diameter / 2 - 320])
+		.separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
+
+var diagonal = d3.svg.diagonal.radial()
+		.projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+
+var svg = d3.select("body").append("svg")
+		.attr("width", diameter)
+		.attr("height", diameter)
+		.append("g")
+		.attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+d3.json("tab4.json", function(error, root) {
+
+	var nodes = tree.nodes(root),
+			links = tree.links(nodes);
+
+	var node = svg.selectAll(".circle")
+			.data(nodes)
+			.enter().append("g")
+			.attr("class", "circle")
+			.attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+			.append("circle")
+			.attr("r", function(d) { r = d.size ? d.size : 0; return r/5000; })
+			.attr("class", function(d){
+				a = ancestor(d.parent);
+				return (typeof a !== 'undefined'  && typeof a.name !== 'undefined' ) ? a.name.replace(/ /g, '-') + ' '  :  ' root' + rootIdx++;
+			});
+
+var rootIdx = 0;
+
+
+	var link = svg.selectAll(".link")
+			.data(links)
+			.enter().append("path")
+			.attr("class", function(d){
+				a = ancestor(d.source);
+				if (typeof a !== 'undefined' ) {
+					if (typeof a.name !== 'undefined' ) {
+						return a.name.replace(/ /g, '-') + ' link';
+					}
+				}
+				return 'link root' + rootIdx++;
+			})
+			.attr("d", diagonal);
+
+	var node = svg.selectAll(".node")
+			.data(nodes)
+			.enter().append("g")
+			.attr("class", "node")
+			.attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+
+	node.append("text")
+			.attr("dy", ".31em")
+			.attr("text-anchor", function(d) { return (depth(d) < 4 ? "middle" : (d.x < 180 ? "start" : "end")); })
+			.attr("class", function(d){ return 'depth-'+depth(d); })
+			.attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
+			.text(function(d) { return d.name === 'other' ? '' : d.name; });
+/*
+
+*/
+
+});
+
+d3.select(self.frameElement).style("height", diameter - 150 + "px");
+
+</script>
