@@ -1,0 +1,19 @@
+{
+  "name": "SwinxyTouch",
+  "version": "0.1.0",
+  "description": "Normalises mouse and touch events giving a simple, efficient, modular library for all your gesture and pointer needs.",
+  "homepage": "http://www.swinxyapps.com/pages/apps/swinxy-touch/",
+  "main": "jquery.swinxytouch.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://ShadowShade@bitbucket.org/ShadowShade/swinxytouch.git"
+  },
+  "author": "ShadowShade",
+  "license": "Creative Commons Attribution-NonCommercial 3.0",
+  "gitHead": "a65c64c4f8ef28fafea392287dea448cdb1bb1b2",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-closurecompiler": "~0.9.3",
+    "grunt": "~0.4.1"
+  }
+}

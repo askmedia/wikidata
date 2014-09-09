@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <!-- jquery - required, atleast 1.7 -->
+        <script type="text/javascript" src="../libs/jquery-1.8.3.min.js"></script>
+        
+        <script type="text/javascript" src="../src/touch.js"></script>
+        <script type="text/javascript" src="../src/gesture-tap.js"></script>
+        <script type="text/javascript" src="../src/gesture-doubletap.js"></script>
+        <script type="text/javascript" src="../src/gesture-drag.js"></script>
+        <script type="text/javascript" src="../src/gesture-longpress.js"></script>
+        <script type="text/javascript" src="../src/gesture-scale.js"></script>
+        <script type="text/javascript" src="../src/helper-bound.js"></script>
+        <script type="text/javascript" src="../src/gesture-rotate.js"></script>
+        <script type="text/javascript" src="../src/gesture-swipe.js"></script>
+        
+        <script type="text/javascript">
+		
+			var
+              touchPoints = [],
+			  shapes = [],
+			  drawing = [],
+			  timer = false,
+                          zindex = 0;
+		
+                
+                          function show(el, disableAutoHide)
+                          {
+                              !disableAutoHide ? el.stop().show().css({height:'auto'}).animate({opacity: 1.0}, {queue: false, complete: function() { hide(el); } }) : el.stop().show().css({height:'auto'}).animate({opacity: 1.0}, {queue: false});
+                          }
+                          
+                          function hide(el)
+                          {
+                              setTimeout(function() {
+                              el.isVisible = false;
+                              el.stop().animate({opacity: 0.0}, {queue: false, complete: function() { el.animate({height: 0}, {queue: false}).hide();  }});
+                              }, 500);
+                          }
+                
+                        function message(el, msg, disableAutoHide)
+                        {
+                            el.text(msg);
+
+                            if (!el.isVisible)
+                            {
+                                el.isVisible = true;
+                                show(el, disableAutoHide);
+                                return;
+                            }
+
+                            if (el.isVisible && !disableAutoHide)
+                            {
+                                hide(el);
+                            }
+                        }
+                
+			function draw()
+			{
+				var updated = 0, shape, diff, property, style, done;
+				
+				for (var i = 0; i < 4; ++i)
+				{
+					if (!(shape = drawing[i]))
+						continue;
+					
+					done  = true;
+					style = shape.el.style;
+					
+					// Left
+					property   = shape.transform.left;
+					diff       = property.target - property.current;
+					style.left = (property.current += diff / 8) + 'px';
+					
+					if (~~(diff) != 0)
+						done = false;
+					
+					// Top
+					property   = shape.transform.top;
+					diff       = property.target - property.current;
+					style.top  = (property.current += diff / 8) + 'px';
+					
+					if (~~(diff) != 0)
+						done = false;
+					
+					if (done)
+						drawing[i] = shape.animating = false;
+					
+					
+					++updated;
+				}
+				
+				if (updated == 0)
+				{
+					clearTimeout(timer);
+					timer = null;
+				}
+			}
+		
+			function animate(id)
+			{
+				drawing[id] = shapes[id];
+				drawing[id].animating = true;
+				
+				if (!timer)
+					timer = setInterval(draw, 16);
+			}
+		
+                var count = 0;
+                
+                        function Shape(el, id)
+			{
+				// General Setup
+				
+				var
+				  s = this,
+				  j = $(el),
+				  offsetX = j.parent().offset().left,
+				  offsetY = j.parent().offset().top,
+                                  style = el.style;
+
+
+                                 var tp = $('#touchpad');
+                                 
+                                 tp.prepend('<ul class="gesture-log"><li class="name"><strong>Shape <span style="color: ' + j.css('background-color') + ';">' + (++count) + '</span></strong></li><li class="sxy-focus"></li><li class="sxy-drag"></li><li class="sxy-tap"></li><li class="sxy-doubletap"></li><li class="sxy-longpress"></li><li class="sxy-swipe"></li><li class="sxy-scale"></li><li class="sxy-rotate"></li></ul>');
+
+                                 var logFocus = tp.find('.sxy-focus').first().css({height: 0, opacity: 0}).hide();
+                                 var logDrag  = tp.find('.sxy-drag').first().css({height: 0, opacity: 0}).hide();
+                                 var logTap  = tp.find('.sxy-tap').first().css({height: 0, opacity: 0}).hide();
+                                 var logDblTap  = tp.find('.sxy-doubletap').first().css({height: 0, opacity: 0}).hide();
+                                 var logLngPress  = tp.find('.sxy-longpress').first().css({height: 0, opacity: 0}).hide();
+                                 var logSwipe = tp.find('.sxy-swipe').first().css({height: 0, opacity: 0}).hide();
+                                 var logScale = tp.find('.sxy-scale').first().css({height: 0, opacity: 0}).hide();
+                                 var logRotate = tp.find('.sxy-rotate').first().css({height: 0, opacity: 0}).hide();
+
+                                j.prepend('<div style="position: absolute; width: 500px; height: 500px; top: -250px; left: -250px; display: none;"></div>');
+
+                                var 
+                                  mouseHelper = j.children().first();
+
+				s.el = el;
+				j.css({opacity: 0.30});
+				s.animating = false;
+				
+				s.transform =
+				{
+					left: { current: j.position().left, target: j.position().left },
+					top: { current: j.position().top, target: j.position().top }
+				}
+
+				var
+				  _tL = s.transform.left,
+				  _tT = s.transform.top;
+				
+				
+				// Gesture - Drag
+				
+				var startDrag = {pX:0, pY:0, sX:0, sY: 0};
+				
+				var _hndDragStates = [];
+				
+				_hndDragStates[1] = function(e)
+				{
+                                    var p = e.position;
+                                    ++zindex;
+                                 
+                                    message(logDrag, 'drag started', true);
+                                 
+                                    j.css({'z-index': zindex});
+                                    
+                                    if (e.pointers[0].type == 0)
+                                        mouseHelper.show();
+                                    
+					startDrag = {pX:p.x - offsetX, pY:p.y - offsetY, sX:j.position().left, sY: j.position().top};
+				};
+				_hndDragStates[2] = function(e)
+				{
+                                    var p = e.position;
+					_tL.target = (startDrag.sX + (p.x  - startDrag.pX)) - offsetX;
+					_tT.target = (startDrag.sY + (p.y  - startDrag.pY)) - offsetY;
+                                        
+                                     message(logDrag, 'drag x:' + p.x + ' y:' + p.y, true);
+				};
+				_hndDragStates[3] = function(e)
+                                {
+                                    message(logDrag, 'drag ended');
+                                    mouseHelper.hide();
+                                };
+				
+                                // Gesture - scale
+                                
+                                var width = 0, height = 0;
+                                
+                                var _hndScaleStates = [];
+                                
+				_hndScaleStates[1] = function(e)
+				{
+                                    message(logScale, 'scale started', true);
+                                    width  = j.width();
+                                    height = j.height();
+				};
+				_hndScaleStates[2] = function(e)
+				{
+                                    _tL.target = (e.position.x - offsetX) - (j.width() / 2);
+                                    _tT.target = (e.position.y - offsetY) - (j.height() / 2);
+                                    
+                                    j.css({width: (width + e.distance), height: (height + e.distance)});
+                                    message(logScale, 'scale delta:' + e.scale, true);
+				};
+				_hndScaleStates[3] = function(e)
+                                {
+                                    message(logScale, 'scale ended');
+                                };
+                                
+                                
+                                // Gesture - Rotate
+                                
+                                var _hndRotateStates = [];
+                                
+                                _hndRotateStates[1] = function(e)
+                                {
+                                    message(logRotate, 'rotate started');
+                                };
+                                
+                                _hndRotateStates[2] = function(e)
+                                {
+                                    style.transform = style.MozTransform = style.webkitTransform = style.msTransform = style.OTransform = 'rotate(' + e.rotation + 'deg)';
+                                    message(logRotate, 'rotate: ' + e.rotation);
+                                };
+                                
+                                _hndRotateStates[3] = function(e)
+                                {
+                                    message(logRotate, 'rotate ended');
+                                };
+                                
+				// Hook Events
+				
+                                $(el).swinxytouch
+                                ({
+                                    'sxy-tap': { 'maxDelay': 250 }
+                                });
+                                
+				$(el).on
+				({
+					'sxy-focus': function(e) { j.stop().animate({opacity: 0.60}); message(logFocus, 'focus'); },
+					'sxy-blur': function(e) { j.stop().animate({opacity: 0.30}); message(logFocus, 'blur'); },
+					'sxy-doubletap': function(e) {  message(logDblTap, 'dbltap x:' + e.position.x + ' y:' + e.position.y); },
+					'sxy-drag': function(e) { _hndDragStates[e.state](e); s.animating || animate(id); },
+					'sxy-longpress': function(e) { message(logLngPress, 'lngpress x:' + e.position.x + ' y:' + e.position.y); },
+					'sxy-rotate': function(e) { _hndRotateStates[e.state](e); },
+					'sxy-scale': function(e) { _hndScaleStates[e.state](e); s.animating || animate(id); },
+					'sxy-swipe': function(e) { message(logSwipe, 'swipe ' + e.direction); },
+					'sxy-tap': function(e) { message(logTap, 'tap x:' + e.position.x + ' y:' + e.position.y); }
+				});
+			}
+		
+            function TouchPoint(el)
+			{
+				var
+				  s = this,
+				  j = $(el);
+				
+				s.x = 0;
+				s.y = 0;
+				
+				s.active = false;
+				
+				function draw()
+				{
+					if (!s.active)
+					{
+						j.addClass('active');
+						s.active = true;
+					}
+					
+					el.style.left = s.x + 'px';
+					el.style.top  = s.y + 'px';
+				}
+				
+				function hide()
+				{
+					j.removeClass('active');
+					s.active = false;
+				}
+				
+				s.draw = draw;
+				s.hide = hide;
+			}
+		
+
+            $(document).ready(function()
+            {
+				var
+				  touchPad = $('#touchpad');
+				
+                                touchPad.swinxytouch({ preventDefault: true });
+                                
+				$('#touchpad .touchpoint').each(function()
+				{
+					touchPoints.push(new TouchPoint(this));
+				});
+				
+				$('#touchpad .shape').each(function()
+				{
+					shapes.push(new Shape(this, shapes.length));
+					drawing.push(false);
+				});
+				
+				var
+				  offsetX = touchPad.offset().left,
+				  offsetY = touchPad.offset().top;
+				
+				var
+                                  lastActive = 0;
+				
+				touchPad.on('sxy-focus sxy-blur sxy-hover sxy-down sxy-up sxy-move', function(e)
+				{
+					var
+					  pt = e.pointers, length = (pt) ? pt.length : 0, currentActive = 0;
+					
+					for (var i = 0, m = length; i < m; ++i)
+					{
+						var p = pt[i];
+						
+                                                if (p.down || p.type == 0)
+                                                {
+                                                    var tp = touchPoints[currentActive];
+                                                    
+                                                    tp.x = p.x - offsetX - 18;
+                                                    tp.y = p.y - offsetY - 18;
+                                                    tp.draw();
+                                                    
+                                                    ++currentActive;
+                                                }
+					}
+
+					if (lastActive > currentActive)
+						for (var i = currentActive, m = lastActive; i < m; ++i)
+							touchPoints[i].hide();
+
+					lastActive = currentActive;
+			    });
+				
+            });
+			
+        </script>
+
+        <style>
+		
+		#touchpad { background: #F2F2F2; border: 1px solid #000; position: relative; overflow: hidden;}
+		
+		#touchpad .touchpoint { width: 36px; height: 36px; border: 1px dashed #000; position: absolute; display: none; border-radius: 36px; }
+		#touchpad .touchpoint.active { display: block; }
+		
+		#touchpad .shape { position: absolute; }
+		
+                .gesture-log li { cursor: default; font-size: 12px; padding: 2px; padding-left: 6px; margin-bottom: 2px; background: #FFFFFF; border-radius: 5px;}
+                .gesture-log { list-style: none; float: left;  margin:0; padding: 0; margin-top: 10px; margin-left: 10px; width: 113px; opacity: 0.70; }
+                
+		</style>
+        
+        
+    </head>
+    <body>
+        <div id="touchpad" style="width: 500px; height: 500px;">
+
+	  <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          <div class="touchpoint"><span></span></div>
+          
+          <div class="shape rectangle" style="background-color: #FF0000; left: 100px; top: 20px; width: 100px; height: 50px;"></div>
+          <div class="shape rectangle" style="background-color: #00FF00; left: 50px; top: 300px; width: 100px; height: 50px;"></div>
+          <div class="shape rectangle" style="background-color: #0000FF; left: 400px; top: 200px; width: 100px; height: 50px;"></div>
+          <div class="shape rectangle" style="background-color: #000000; left: 50px; top: 250px; width: 100px; height: 50px;"></div>
+          
+
+          
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <!-- jquery - required, atleast 1.7 -->
+        <script type="text/javascript" src="libs/jquery-2.1.1.min.js"></script>
+
+        <!-- jquery.mousewheel - optional, provides mousewheel zoom support -->
+        <script type="text/javascript" src="libs/jquery.mousewheel.js"></script>
+
+        <!--
+
+        The demo makes use of the individual source files to aid in both debugging and showing which
+        components are required. Within a production environment please use one of the supplied
+        minified files or minify your own version.
+
+        -->
+
+        <!-- jquery.swinytouch -->
+        <script type="text/javascript" src="libs/swinxytouch/src/touch.js"></script>
+        <script type="text/javascript" src="libs/swinxytouch/src/gesture-scale.js"></script>
+        <script type="text/javascript" src="libs/swinxytouch/src/gesture-tap.js"></script>
+        <script type="text/javascript" src="libs/swinxytouch/src/helper-bound.js"></script>
+
+        <!-- jquery.swinyzoom -->
+        <link href="src/jquery.swinxyzoom.css" media="screen" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="src/zoom.js"></script>
+        <script type="text/javascript" src="src/dock.js"></script>
+        <script type="text/javascript" src="src/window.js"></script>
+        <script type="text/javascript" src="src/slippy.js"></script>
+        <script type="text/javascript" src="src/lens.js"></script>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+
+            	var size = Math.min(jQuery(window).height(), jQuery(window).width());
+
+               	jQuery('.container').css({height: size, width: size});
+
+                jQuery('a.swinxylens').swinxyzoom({
+                	mode:'lens',
+                	size: '100%',
+                	damping: 10,
+                	zoom: 13,
+                	controls: false,
+                	lens: { width: 300, height: 300 }
+               	});
+
+            });
+        </script>
+
+
+    </head>
+    <body>
+    	<div class="container">
+  			<a href="img/what_is_Wikipedia_about-8000.jpg" class="sxyzoom swinxylens">
+  				<img src="img/what_is_Wikipedia_about-1200.jpg" title="" />
+  			</a>
+  		</div>
+    </body>
+</html>
