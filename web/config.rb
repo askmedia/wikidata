@@ -4,7 +4,7 @@ css_dir = "css"
 sass_dir = "scss"
 images_dir = "images"
 http_generated_images_path = "images"
-http_images_path = "/images"
+http_images_path = "/web/images"
 asset_cache_buster :none
 
 environment = :production
