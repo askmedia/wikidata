@@ -1,0 +1,336 @@
+@charset "UTF-8";
+
+@import "elements";
+@import "swinxy.scss";
+
+
+/* GLOBAL */
+
+// FONT-FACE
+@font-face {
+    font-family: 'Gotham_Thin';
+    src: url('../fonts/gotham-thin-webfont.eot');
+    src: url('../fonts/gotham-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-thin-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-thin-webfont.woff') format('woff'),
+         url('../fonts/gotham-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham_Light';
+    src: url('../fonts/gotham-light-webfont.eot');
+    src: url('../fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-light-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-light-webfont.woff') format('woff'),
+         url('../fonts/gotham-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham_Ultra';
+    src: url('../fonts/../fonts/gotham-ultra-webfont.eot');
+    src: url('../fonts/gotham-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-ultra-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-ultra-webfont.woff') format('woff'),
+         url('../fonts/gotham-ultra-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+    &:before,
+    &:after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;       
+    }
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// STRUCTURE
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height:100%; }
+html, button, input, select, textarea { font-family:"Gotham_Thin", Helvetica, Arial, Verdana, sans-serif; color:$default-color; }
+body {
+    background:#000e1f;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+hr { border:0; border-top-width:1px; border-color:$default-color; border-style:solid; clear:both; height:0; display:block; margin:0; }
+
+a { color: $default-color; outline: 0; text-decoration:none; @include transition(all .5s ease-out); }
+
+.left { float:left; }
+.right { float:right; }
+.aligncenter { text-align:center; }
+.alignleft { float:left; margin:0 14px 10px 0; }
+.alignright { float:right; margin:0 0 10px 14px; }
+.floatleft { float:left; }
+.floatright { float:right; }
+img.alignleft, img.alignright, .img.aligncenter { display:block; }
+img.aligncenter { margin-left:auto; margin-right:auto; }
+
+b, strong { font-weight: bold; }
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+img { border: 0; vertical-align: middle; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; }
+button { background:none; border:none; margin:0; padding:0; }
+button:focus, input:focus, textarea:focus { outline:none; }
+.oldie select, .oldie textarea { vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+.oldie button, .oldie input { overflow: visible; vertical-align: middle; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+.unstyled { list-style-type:none; margin:0; padding:0; }
+.clearfix { zoom:1; }
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+
+.wrapper__intro {
+    display: table;
+    height: 100%;
+    width: 100%;
+    h1 {
+        opacity: 0;
+        @include animation(fadeIn 1s ease forwards 1s);
+        clear:both;
+        display: block;
+        font:normal em(95px) 'Gotham_Light', Verdana, Arial, sans-serif; 
+        margin: 0;
+        padding: 20px 0 10px 0;
+    }
+    p {
+        opacity: 0;
+        @include animation(fadeIn 1s ease  forwards 2s);
+        display: block;
+        font:normal 1em 'Gotham_Light', Verdana, Arial, sans-serif;
+        margin: 0 auto;
+        padding: 0 0 30px 0;
+        width:650px;
+    }
+}
+
+.logo {
+    opacity: 0;
+    @include animation(fadeIn 1s forwards ease);
+    background:image-url("logo-wikidata.png") left top no-repeat;
+    display: block;
+    height: 177px;
+    margin: 0 auto;
+    padding: 0;
+    width:195px;
+    @include image-2x("logo-wikidata-2x.png", 195px, 177px);
+    -webkit-filter: drop-shadow( 0 0 50px $default-color);
+} 
+
+.loading {
+        opacity: 0;
+        @include animation(fadeIn 1s ease forwards 3s);
+} 
+
+.bt-explore {
+    cursor: pointer;
+    display: none;
+    font-size:em(48px);
+    padding:0;
+}
+
+.wrapper__intro__body {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wrapper__graph {
+    display: none;
+}
+
+.wrapper__graph__body {
+    display: block;
+    margin:0 auto;
+}
+
+.wrapper__graph_left, .wrapper__graph_right {
+    position:fixed;
+    height:100%;
+    left:40px;
+    top:0;
+    width:300px;
+    z-index:10;
+    p {
+        display: block;
+        font-size:1em;
+    }
+    h2 {
+        display: block;
+        font-size: em(50px);
+        margin:0;
+        padding:0 0 10px 0;
+    }
+    h3 {
+        display: block;
+        font-size: em(35px);
+        margin:0;
+        padding:0 0 10px 0;  
+    }
+}
+
+.wrapper__graph_right {
+    left:auto;
+    right:40px;
+    text-align: center;
+    width:140px;
+    ul {
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: block;
+        height:44px;
+        margin:0 0 15px 0;
+        padding:0;
+        position: relative;
+        z-index:1;  
+        &:after {
+            border-left:1px solid $default-color;
+            content:'';
+            display:block;
+            margin:0 auto;
+            padding:0;
+            height:25px;
+            width:1px;
+        }
+        &:before {
+            background:$default-color;
+            border-radius:50%;
+            content:'';
+            display: block;
+            height: 4px;
+            width: 4px;
+            position:absolute;
+            bottom:0;
+            margin:0 0 0 -1px;
+            left:50%;
+        }
+    }
+    .range-2 {
+        height:50px;
+        &:before {
+            height: 14px;
+            margin:0 0 0 -7px;
+            width: 14px;
+        } 
+    }
+    .range-3 {
+        height:85px;
+        &:before {
+            height: 46px;
+            margin:0 0 0 -23px;
+            width: 46px;
+        } 
+    }
+    .range-4 {
+        height:172px;
+        &:before {
+            height: 130px;
+            margin:0 0 0 -65px;
+            width: 130px;
+        } 
+    }
+}
+
+.wrapper__graph_left__body, .wrapper__graph_right__body {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper__graph_left__body__inner, .wrapper__graph_right__body__inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.see-more {
+    @include transition(opacity .5s linear);
+    background:$default-color;
+    cursor:pointer;
+    border-radius:50%;
+    color:#000e1f;
+    display: block;
+    font-size:3em;
+    height: 60px;
+    line-height:60px;
+    margin:0;
+    padding:0;
+    text-align: center;
+    width:60px;
+    &.active .default, .active {
+        opacity:0;
+        display: none;
+    }
+    &.active .active, .default {
+        opacity:1;
+        display: block;
+    }
+    em {
+        font-style: normal;
+    }
+}
+
+.see-more__body {
+    @include transition(opacity .5s linear);
+    opacity:0;
+    display: none;
+    padding:10px 0 0 0;
+    &.active {
+        opacity:1;
+        display: block;
+    }
+}
+
+.dld-pdf {            
+    background:$default-color;
+    cursor:pointer;
+    border-radius:50%;
+    color:#000e1f;
+    display: block;
+    font-size:1em;
+    height: 50px;
+    line-height:50px;
+    margin:0;
+    padding:0;
+    text-align: center;
+    text-transform: uppercase;
+    width:50px;
+}
+
+// LOADER
+.loader {
+    margin:0 auto;
+    svg {
+        width: 60px;
+        height: 60px;
+    }
+    svg path, svg rect {
+        fill: $default-color;
+    }
+}

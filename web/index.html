@@ -1,62 +1,129 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-        <!-- jquery - required, atleast 1.7 -->
-        <script type="text/javascript" src="libs/jquery-2.1.1.min.js"></script>
-
-        <!-- jquery.mousewheel - optional, provides mousewheel zoom support -->
-        <script type="text/javascript" src="libs/jquery.mousewheel.js"></script>
-
-        <!--
-
-        The demo makes use of the individual source files to aid in both debugging and showing which
-        components are required. Within a production environment please use one of the supplied
-        minified files or minify your own version.
-
-        -->
-
-        <!-- jquery.swinytouch -->
-        <script type="text/javascript" src="libs/swinxytouch/src/touch.js"></script>
-        <script type="text/javascript" src="libs/swinxytouch/src/gesture-scale.js"></script>
-        <script type="text/javascript" src="libs/swinxytouch/src/gesture-tap.js"></script>
-        <script type="text/javascript" src="libs/swinxytouch/src/helper-bound.js"></script>
-
-        <!-- jquery.swinyzoom -->
-        <link href="src/jquery.swinxyzoom.css" media="screen" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="src/zoom.js"></script>
-        <script type="text/javascript" src="src/dock.js"></script>
-        <script type="text/javascript" src="src/window.js"></script>
-        <script type="text/javascript" src="src/slippy.js"></script>
-        <script type="text/javascript" src="src/lens.js"></script>
-
-        <script type="text/javascript">
-            jQuery(document).ready(function() {
-
-            	var size = Math.min(jQuery(window).height(), jQuery(window).width());
-
-               	jQuery('.container').css({height: size, width: size});
-
-                jQuery('a.swinxylens').swinxyzoom({
-                	mode:'lens',
-                	size: '100%',
-                	damping: 10,
-                	zoom: 13,
-                	controls: false,
-                	lens: { width: 300, height: 300 }
-               	});
-
-            });
-        </script>
-
-
-    </head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Wikidata</title>
+        <meta name="description" content="What is Wikipedia about?">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="js/libs/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.mousewheel.js"></script>
+        <script type="text/javascript" src="js/libs/swinxytouch/src/touch.js"></script>
+        <script type="text/javascript" src="js/libs/swinxytouch/src/gesture-scale.js"></script>
+        <script type="text/javascript" src="js/libs/swinxytouch/src/gesture-tap.js"></script>
+        <script type="text/javascript" src="js/libs/swinxytouch/src/helper-bound.js"></script>
+        <script type="text/javascript" src="js/src/zoom.js"></script>
+        <script type="text/javascript" src="js/src/dock.js"></script>
+        <script type="text/javascript" src="js/src/window.js"></script>
+        <script type="text/javascript" src="js/src/slippy.js"></script>
+        <script type="text/javascript" src="js/src/lens.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+            </head>
     <body>
-    	<div class="container">
-  			<a href="img/what_is_Wikipedia_about-8000.jpg" class="sxyzoom swinxylens">
-  				<img src="img/what_is_Wikipedia_about-1200.jpg" title="" />
-  			</a>
-  		</div>
+        <div class="wrapper__intro">
+            <div class="wrapper__intro__body">
+                <div class="wrapper__intro__body__inner">
+                    <div class="logo"></div>
+                    <h1>What is Wikipedia about?</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore doloremque, quaerat nulla. Distinctio quod eaque, illum odio voluptatibus animi voluptatem necessitatibus possimus nihil at amet. Assumenda, unde, quas. Voluptate, quis.
+                    </p>
+                    <div class="loading">
+                        <div class="loader">
+                          <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                          <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+                            s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+                            c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"/>
+                          <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+                            C22.32,8.481,24.301,9.057,26.013,10.047z">
+                            <animateTransform attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="0 20 20"
+                              to="360 20 20"
+                              dur="1.5s"
+                              repeatCount="indefinite"/>
+                            </path>
+                          </svg>
+                        </div><!-- .loader -->
+                        <span class="bt-explore">Explore</span>
+                    </div><!-- .loading -->
+                </div>
+            </div><!-- .wrapper__intro__body -->
+        </div><!-- .wrapper__intro -->
+
+        <div class="wrapper__graph">
+            <div class="wrapper__graph_left">
+                <div class="wrapper__graph_left__body">
+                    <div class="wrapper__graph_left__body__inner">
+                        <h2>What is Wikipedia about?</h2>
+                        <p>
+                            Distribution of the 10,568,679 items on Wikipedia, sorted by type.
+                        </p>
+                        <span class="see-more">
+                            <em class="default">?</em>
+                            <em class="active">&times;</em>
+                        </span>
+                        <div class="see-more__body">
+                            <h3>How to read it</h3>
+                            <p>
+                                Wikipedia includes articles about 2,424,305 humans. Surprisingly, it also has articles about 588,822 different Chinese villages.
+                            </p>
+                            <h3>Technical note</h3>
+                            <p>
+                               The type of each item on Wikipedia is defined by the property “instance of” (P31) <br />on Wikidata. On July 28th 2014, we collected 12,607<br /> different types using Magnus Manske’s WikiDataQuery <br />API. We have selected<br />the 781 types describing at least 100 items. These 781 types cover 99,16% of the whole dataset. We have arranged them into 9 main categories (living organism, wikimedia, geographical entity, creative work, group of humans, physical entity, symbolic entity, manufactured object, and temporal entity).
+                            </p>
+                            <p>
+                                The categories tree is displayed using the Reingold-Tilford algorithm.
+                            </p>
+                            <p>
+                                <a href="#" class="dld-pdf">PDF</a>  
+                            </p>
+                        </div><!-- .see-more__body -->
+                    </div><!-- .wrapper__graph_left__body__inner -->
+                </div><!-- .wrapper__graph_left__body -->
+            </div><!-- .wrapper__graph_left -->
+
+            <div class="wrapper__graph__body">
+                <a href="images/what_is_Wikipedia_about-8000.jpg" class="sxyzoom swinxylens">
+                    <img src="images/what_is_Wikipedia_about-1200.jpg" title="" />
+                </a>
+            </div><!-- .wrapper__graph__body -->
+
+            <div class="wrapper__graph_right">
+                <div class="wrapper__graph_right__body">
+                    <div class="wrapper__graph_right__body__inner">
+                        <h2>Items</h2>
+                        <ul>
+                            <li class="range-1">1,000</li>
+                            <li class="range-2">10,000</li>
+                            <li class="range-3">100,000</li>
+                            <li class="range-4">1,000,000</li>
+                        </ul>
+                    </div><!-- .wrapper__graph_right__body__inner -->
+                </div><!-- .wrapper__graph_right__body -->
+            </div><!-- .wrapper__graph_right -->
+        </div><!-- .wrapper__graph -->
+
     </body>
 </html>

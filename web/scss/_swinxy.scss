@@ -70,7 +70,7 @@
     
 /* Mode :: Dock */
 
-  .sxy-zoom-mode-dock  .sxy-zoom-viewport { box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border: 1px solid #000; position: absolute; overflow: hidden; top:0; box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); -webkit-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68);  -moz-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68);}
+  .sxy-zoom-mode-dock  .sxy-zoom-viewport { box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; border: 1px solid #000; position: absolute; overflow: hidden; top:0; box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); -webkit-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68);  -moz-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); }
       .sxy-zoom-mode-dock  .sxy-zoom-dragpad .sxy-overlay { background: #000000; opacity: 0.0; filter: alpha(opacity = 0); }
       
 /* Mode :: Window */
@@ -79,7 +79,7 @@
       
 /* Mode :: Lens */
 
-  .sxy-zoom-mode-lens  .sxy-zoom-viewport { border: 1px solid #000; position: absolute; overflow: hidden; top:0; box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); -webkit-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); -moz-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); }
+  .sxy-zoom-mode-lens  .sxy-zoom-viewport { border: 1px solid #000; position: absolute; overflow: hidden; top:0; box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); -webkit-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); -moz-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); border-radius:50%; }
     
 /* Mode :: Slippy */
 
