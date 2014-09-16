@@ -45,10 +45,10 @@
    filter: inherit;
 }
 
-.sxy-zoom-container .in {    filter:inherit;  left: 2px; width: 22px; height: 23px; background:  url(controls.png) 0px -15px; position: relative; display: block; top: 3px;}
-.sxy-zoom-container .out { filter:inherit; width: 22px; height: 23px; background:  url(controls.png) 0px -38px; position: relative; left: 2px; display: block; }
-.sxy-zoom-container .sxy-slider { filter:inherit; background:  url(controls.png) -25px 0px repeat-y; position: relative;} 
-.sxy-zoom-container .sxy-handle { filter:inherit; left: 2px; width: 20px; height: 16px; background:  url(controls.png) 0px 0px no-repeat; top: 20px; position: absolute;font-size: 0; }
+.sxy-zoom-container .in {    filter:inherit;  left: 2px; width: 22px; height: 23px; position: relative; display: block; top: 3px;}
+.sxy-zoom-container .out { filter:inherit; width: 22px; height: 23px; position: relative; left: 2px; display: block; }
+.sxy-zoom-container .sxy-slider { filter:inherit; position: relative;} 
+.sxy-zoom-container .sxy-handle { filter:inherit; left: 2px; width: 20px; height: 16px; top: 20px; position: absolute;font-size: 0; }
  
 /* Mode :: Common */ 
  
@@ -65,7 +65,7 @@
     .sxy-zoom-container .sxy-zoom-viewport img { position: absolute; }
 
   .sxy-zoom-container.sxy-zoom-loading .sxy-loading { background: #fff; padding: 5px; position: absolute; top:0; left:0; margin: 5px;  border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); -webkit-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); -moz-box-shadow: 2px 2px 4px rgba(50, 50, 50, 0.68); opacity: 0.35;  filter: alpha(opacity = 35);}
-    .sxy-zoom-container.sxy-zoom-loading .sxy-loading  span { background: url(loading.gif) no-repeat; width: 25px; height: 25px; display: block;}
+    .sxy-zoom-container.sxy-zoom-loading .sxy-loading  span { width: 25px; height: 25px; display: block;}
 
     
 /* Mode :: Dock */

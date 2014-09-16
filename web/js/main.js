@@ -1,7 +1,11 @@
 // ZOOM 
 
 jQuery(document).ready(function() {
-    var size = Math.min(jQuery(window).height(), jQuery(window).width());
+    var size, ratio, default_size;
+    default_size = 1200;
+    size = Math.min(jQuery(window).height(), jQuery(window).width());
+    ratio = (size * 100) / default_size;
+    console.log(ratio);
     jQuery('.wrapper__graph__body').css({
         height: size,
         width: size
@@ -20,8 +24,16 @@ jQuery(document).ready(function() {
     });
 
     jQuery('.see-more').on('click', function() {
-        jQuery(this).toggleClass('active');
-        jQuery('.see-more__body').toggleClass('active');
+        var _this, _see_more_body;
+        _this = jQuery(this);
+        _see_more_body = jQuery('.see-more__body');
+
+        _this.toggleClass('active');
+        if (_this.hasClass('active')) {
+            _see_more_body.show('slow');
+        } else {
+            _see_more_body.hide('slow');
+        }
     });
 
     jQuery('.bt-explore').on('click', function() {
@@ -29,10 +41,11 @@ jQuery(document).ready(function() {
             jQuery('.wrapper__graph').fadeIn();
         });
     });
-});
 
-jQuery(window).load(function() {
-    jQuery('.loader').fadeOut('slow', function() {
-        jQuery('.bt-explore').fadeIn();
+    var big_Img = "images/what_is_Wikipedia_about-8000.jpg";
+    jQuery('<img src="' + big_Img + '">').load(function() {
+        jQuery('.loader').fadeOut('slow', function() {
+            jQuery('.bt-explore').fadeIn();
+        });
     });
 });
