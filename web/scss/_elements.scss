@@ -37,7 +37,6 @@ $default-color:#009eff;
   -o-animation:$transition;
   -ms-animation:$transition;
   animation:$transition;
-  -webkit-transform: translateZ(0);
 }
 
 // RETINA
@@ -60,4 +59,18 @@ $default-color:#009eff;
 @keyframes fadeIn {
   0%   { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes fromBottomToTop {
+  0% {
+    transform: translate3d(0,100%,0);
+    backface-visibility: hidden;
+    perspective: 1000;
+  }
+
+  100% {
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+    perspective: 1000;
+  }
 }
