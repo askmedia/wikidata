@@ -5,7 +5,55 @@ jQuery(document).ready(function() {
     default_size = 1200;
     size = Math.min(jQuery(window).height(), jQuery(window).width());
     ratio = (size * 100) / default_size;
+    ratio = 100 - ratio;
     console.log(ratio);
+
+    // jQuery('.range').each(function(i) {
+    //     jQuery(this).css({
+    //         height: ((jQuery(this).height() * ratio) / 100) + 15
+    //     });
+    //     jQuery(this).find('.range-legend').css({
+    //         height: (jQuery(this).find('.range-legend').height() * ratio) / 100,
+    //         'margin-left': -(((jQuery(this).find('.range-legend').width() * ratio) / 100) / 2),
+    //         width: (jQuery(this).find('.range-legend').width() * ratio) / 100
+    //     });
+    // });
+
+    jQuery('.range-1').css({
+        height: ((jQuery('.range-1').height() * ratio) / 100) + 15
+    });
+    jQuery('.range-legend--1').css({
+        height: (jQuery('.range-legend--1').height() * ratio) / 100,
+        'margin-left': -(((jQuery('.range-legend--1').width() * ratio) / 100) / 2),
+        width: (jQuery('.range-legend--1').width() * ratio) / 100
+    });
+
+    jQuery('.range-2').css({
+        height: ((jQuery('.range-2').height() * ratio) / 100) + 15
+    });
+    jQuery('.range-legend--2').css({
+        height: (jQuery('.range-legend--2').height() * ratio) / 100,
+        'margin-left': -(((jQuery('.range-legend--2').width() * ratio) / 100) / 2),
+        width: (jQuery('.range-legend--2').width() * ratio) / 100
+    });
+
+    jQuery('.range-3').css({
+        height: ((jQuery('.range-3').height() * ratio) / 100) + 15
+    });
+    jQuery('.range-legend--3').css({
+        height: (jQuery('.range-legend--3').height() * ratio) / 100,
+        'margin-left': -(((jQuery('.range-legend--3').width() * ratio) / 100) / 2),
+        width: (jQuery('.range-legend--3').width() * ratio) / 100
+    });
+
+    jQuery('.range-4').css({
+        height: ((jQuery('.range-4').height() * ratio) / 100) + 15
+    });
+    jQuery('.range-legend--4').css({
+        height: (jQuery('.range-legend--4').height() * ratio) / 100,
+        'margin-left': -(((jQuery('.range-legend--4').width() * ratio) / 100) / 2),
+        width: (jQuery('.range-legend--4').width() * ratio) / 100
+    });
     jQuery('.wrapper__graph__body').css({
         height: size,
         width: size
@@ -30,8 +78,11 @@ jQuery(document).ready(function() {
 
         _this.toggleClass('active');
         if (_this.hasClass('active')) {
-            _see_more_body.show('slow');
+            _see_more_body.show('slow', function() {
+                jQuery('.wrapper__graph_left').addClass('active');
+            });
         } else {
+            jQuery('.wrapper__graph_left').removeClass('active');
             _see_more_body.hide('slow');
         }
     });

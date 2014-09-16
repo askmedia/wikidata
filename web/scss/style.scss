@@ -66,6 +66,7 @@ body {
     margin:0;
     padding:0;
     height:100%;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -137,6 +138,9 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
         font:normal em(95px) 'Gotham_Light', Verdana, Arial, sans-serif; 
         margin: 0;
         padding: 20px 0 10px 0;
+        @media (max-width: 1280px) {
+            font-size:em(60px);
+        }
     }
     p {
         opacity: 0;
@@ -235,7 +239,10 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
         padding:20px 0;
         text-align: center;
         width:712px;
-    } 
+    }
+    &.active {
+        overflow-y:auto;
+    }
 }
 
 .wrapper__graph_right {
@@ -265,43 +272,46 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
             height:25px;
             width:1px;
         }
-        &:before {
-            background:$default-color;
-            border-radius:50%;
-            content:'';
-            display: block;
-            height: 4px;
-            width: 4px;
-            position:absolute;
-            bottom:0;
-            margin:0 0 0 -1px;
-            left:50%;
-        }
     }
     .range-2 {
         height:50px;
-        &:before {
-            height: 14px;
-            margin:0 0 0 -7px;
-            width: 14px;
-        } 
     }
     .range-3 {
         height:85px;
-        &:before {
-            height: 46px;
-            margin:0 0 0 -23px;
-            width: 46px;
-        } 
     }
     .range-4 {
         height:172px;
-        &:before {
-            height: 130px;
-            margin:0 0 0 -65px;
-            width: 130px;
-        } 
     }
+}
+
+.range-legend {
+    background:$default-color;
+    border-radius:50%;
+    display: block;
+    height: 4px;
+    width: 4px;
+    position:absolute;
+    bottom:0;
+    margin:0 0 0 -1px;
+    left:50%;   
+}
+
+.range-legend--2 {
+    height: 14px;
+    margin:0 0 0 -7px;
+    width: 14px;  
+}
+
+.range-legend--3 {
+    height: 46px;
+    margin:0 0 0 -23px;
+    width: 46px; 
+}
+
+.range-legend--4 {
+    height: 130px;
+    margin:0 0 0 -65px;
+    width: 130px; 
 }
 
 .wrapper__graph_left__body, .wrapper__graph_right__body {
@@ -312,6 +322,7 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 
 .wrapper__graph_left__body__inner, .wrapper__graph_right__body__inner {
     display: table-cell;
+    position: relative;
     vertical-align: middle;
 }
 
@@ -330,7 +341,9 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
     text-align: center;
     width:60px;
     @media (max-width: 1280px) {
-        margin:0 auto;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
     &.active .default, .active {
         opacity:0;
@@ -348,6 +361,7 @@ textarea { overflow: auto; vertical-align: top; resize: vertical; }
 .see-more__body {
     display: none;
     padding:10px 0 0 0;
+    text-align: left;
 }
 
 .dld-pdf {            
