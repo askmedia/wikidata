@@ -85,8 +85,6 @@ jQuery(document).ready(function() {
         });
     });
 
-    jQuery('.bt-explore').click();
-
     var big_Img = "images/what_is_Wikipedia_about-8000.jpg";
     jQuery('<img src="' + big_Img + '">').load(function() {
         jQuery('.loader').fadeOut('slow', function() {
