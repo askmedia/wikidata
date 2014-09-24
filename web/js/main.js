@@ -31,26 +31,19 @@ jQuery(document).ready(function() {
         var human_value = 2424305;
         var human_width = 223;
         var human_radius = human_width / 2;
-        var human_area = human_radius * Math.PI * Math.PI;
-
-        var legendRatio = human_value / human_area;
-
-        console.log('human_value', human_value);
-        console.log('human_area', human_area);
-        console.log('ratio : ', legendRatio);
+        var human_area = human_radius * human_radius * Math.PI;
 
         var legends = {
-            1: 47000,
-            2: 100000,
-            3: 1000000,
-            4: 2400000
+            1: 1000,
+            2: 10000,
+            3: 100000,
+            4: 1000000
         };
-        console.log(legends);
+
         for (var i in legends) {
 
             var range_value = legends[i];
-            var range_area = range_value / legendRatio;
-            var range_radius = range_area / Math.PI / Math.PI;
+            var range_radius = human_radius / Math.sqrt(human_value / range_value);
             var range_width = range_radius * 2;
 
             var imgRatio = size / base_width;
