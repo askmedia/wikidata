@@ -2,69 +2,11 @@
 
 jQuery(document).ready(function() {
 
-    var size, ratio, default_size;
     var screenWidth = jQuery(window).width();
     var screenHeight = jQuery(window).height();
     if (screenWidth < 1280)
         screenHeight -= 127;
-    size = Math.min(screenHeight, screenWidth);
-
-    /*
-    default_size = 1200;
-    ratio = (size * 100) / default_size;
-    ratio = 100 - ratio;
-
-    console.log(ratio);
-    */
-
-    // jQuery('.range').each(function(i) {
-    //     jQuery(this).css({
-    //         height: ((jQuery(this).height() * ratio) / 100) + 15
-    //     });
-    //     jQuery(this).find('.range-legend').css({
-    //         height: (jQuery(this).find('.range-legend').height() * ratio) / 100,
-    //         'margin-left': -(((jQuery(this).find('.range-legend').width() * ratio) / 100) / 2),
-    //         width: (jQuery(this).find('.range-legend').width() * ratio) / 100
-    //     });
-    // });
-
-    /*
-    jQuery('.range-1').css({
-        height: ((jQuery('.range-1').height() * ratio) / 100) + 15
-    });
-    jQuery('.range-legend--1').css({
-        height: (jQuery('.range-legend--1').height() * ratio) / 100,
-        'margin-left': -(((jQuery('.range-legend--1').width() * ratio) / 100) / 2),
-        width: (jQuery('.range-legend--1').width() * ratio) / 100
-    });
-
-    jQuery('.range-2').css({
-        height: ((jQuery('.range-2').height() * ratio) / 100) + 15
-    });
-    jQuery('.range-legend--2').css({
-        height: (jQuery('.range-legend--2').height() * ratio) / 100,
-        'margin-left': -(((jQuery('.range-legend--2').width() * ratio) / 100) / 2),
-        width: (jQuery('.range-legend--2').width() * ratio) / 100
-    });
-
-    jQuery('.range-3').css({
-        height: ((jQuery('.range-3').height() * ratio) / 100) + 15
-    });
-    jQuery('.range-legend--3').css({
-        height: (jQuery('.range-legend--3').height() * ratio) / 100,
-        'margin-left': -(((jQuery('.range-legend--3').width() * ratio) / 100) / 2),
-        width: (jQuery('.range-legend--3').width() * ratio) / 100
-    });
-
-    jQuery('.range-4').css({
-        height: ((jQuery('.range-4').height() * ratio) / 100) + 15
-    });
-    jQuery('.range-legend--4').css({
-        height: (jQuery('.range-legend--4').height() * ratio) / 100,
-        'margin-left': -(((jQuery('.range-legend--4').width() * ratio) / 100) / 2),
-        width: (jQuery('.range-legend--4').width() * ratio) / 100
-    });
-*/
+    var size = Math.min(screenHeight, screenWidth);
 
     jQuery('.wrapper__graph__body').css({
         height: size,
@@ -97,8 +39,6 @@ jQuery(document).ready(function() {
         console.log('human_area', human_area);
         console.log('ratio : ', legendRatio);
 
-        var x = 100;
-
         var legends = {
             1: 47000,
             2: 100000,
@@ -113,11 +53,9 @@ jQuery(document).ready(function() {
             var range_radius = range_area / Math.PI / Math.PI;
             var range_width = range_radius * 2;
 
-            var $img = jQuery(".sxy-zoom-bg");
+            var imgRatio = size / base_width;
 
-            var imgRatio = size / 1200;
-
-            jQuery('.range-' + i + ' span').text(range_value);
+            jQuery('.range-' + i + ' span').text(addCommas(range_value));
 
             jQuery('.range-' + i).css({
                 height: range_width * imgRatio + 30
@@ -162,4 +100,16 @@ jQuery(document).ready(function() {
             jQuery('.bt-explore').fadeIn();
         });
     });
+
+    function addCommas(nStr) {
+        nStr += '';
+        var x = nStr.split('.');
+        var x1 = x[0];
+        var x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        }
+        return x1 + x2;
+    }
 });
